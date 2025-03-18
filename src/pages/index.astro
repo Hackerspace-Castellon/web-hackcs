@@ -6,15 +6,15 @@ import Section from "@/components/Section.astro";
 import BlogPostCard from "@/components/BlogPostCard.astro";
 import Layout from "@/layouts/Layout.astro";
 import { KNOWN_TECH, ABOUT_ME } from "@/consts";
-const posts = (await getCollection("blog")).sort(
+const posts = (await getCollection("agenda")).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 ---
 
-<Layout title="Token - Astro + Tailwind Portfolio Template">
+<Layout title="Hackerspace">
   <Hero />
   <Section
-    title="My Posts"
+    title="Agenda"
     className={"bg-gradient-to-b from-black/70 from-[5%] to-black via-black"}
   >
     <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-4">
