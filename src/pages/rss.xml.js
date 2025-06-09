@@ -28,8 +28,8 @@ export async function GETAgendaEN(context) {
   });
 }
 
-export async function GETAgendaVA(context) {
-  const posts = await getCollection("agendaVA");
+export async function GETAgendaCA(context) {
+  const posts = await getCollection("agendaCA");
   return rss({
     title: SITE_CONTENT.ca.TITLE, // Access title for Valencian
     description: SITE_CONTENT.ca.DESCRIPTION, // Access description for Valencian
@@ -67,8 +67,8 @@ export async function GETRecursosEN(context) {
   });
 }
 
-export async function GETRecursosVA(context) {
-  const posts = await getCollection("recursosVA");
+export async function GETRecursosCA(context) {
+  const posts = await getCollection("recursosCA");
   return rss({
     title: SITE_CONTENT.ca.TITLE, // Access title for Valencian
     description: SITE_CONTENT.ca.DESCRIPTION, // Access description for Valencian

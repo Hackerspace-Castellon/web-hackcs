@@ -25,7 +25,7 @@ const agendaEN = defineCollection({
   schema,
 });
 
-const agendaVA = defineCollection({
+const agendaCA = defineCollection({
   loader: glob({ base: "./src/content/ca/agenda", pattern: "**/*.{md,mdx}" }),
   schema,
 });
@@ -40,9 +40,9 @@ const recursosEN = defineCollection({
   schema,
 });
 
-const recursosVA = defineCollection({
+const recursosCA = defineCollection({
   loader: glob({ base: "./src/content/ca/recursos", pattern: "**/*.{md,mdx}" }),
   schema,
 });
 
-export const collections = { agendaES, agendaEN, agendaVA, recursosES, recursosEN, recursosVA };
+export const collections = { agendaES, agendaEN, agendaCA, recursosES, recursosEN, recursosCA };

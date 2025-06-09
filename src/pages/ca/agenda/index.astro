@@ -1,10 +1,10 @@
 ---
 import { getCollection } from "astro:content";
-import PostCardES from "@/components/PostCardVA.astro";
+import PostCardES from "@/components/PostCardCA.astro";
 import Section from "@/components/Section.astro";
 import Layout from "@/layouts/Layout.astro";
 
-const posts = (await getCollection("agendaVA")).sort(
+const posts = (await getCollection("agendaCA")).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 

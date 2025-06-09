@@ -16,7 +16,7 @@ const content = SITE_CONTENT[locale] || SITE_CONTENT.es; // Usamos 'es' como val
 // Obtener el título y la descripción de "Agenda" y "About Us" en el idioma correspondiente
 const { TITLE } = content;
 
-const posts = (await getCollection("agendaVA")).sort(
+const posts = (await getCollection("agendaCA")).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 )
 .slice(0, 4);
