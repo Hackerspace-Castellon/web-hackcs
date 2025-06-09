@@ -15,7 +15,6 @@ const schema = z.object({
   ),
 });
 
-// ⚠️ CAMBIAR: base apunta DIRECTAMENTE a la carpeta específica
 const agendaES = defineCollection({
   loader: glob({ base: "./src/content/es/agenda", pattern: "**/*.{md,mdx}" }),
   schema,
