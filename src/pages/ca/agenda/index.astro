@@ -7,9 +7,18 @@ import Layout from "@/layouts/Layout.astro";
 const agendaPosts = await getCollection("agendaCA");
 const recursosConAgenda = (await getCollection("recursosCA"))
   .filter(post => post.data.categories.includes("agenda"));
+  
+const agendaPostsWithSource = agendaPosts.map(post => ({
+  ...post,
+  sourceCollection: 'agenda' as 'agenda'
+}));
 
-// Combinar ambas fuentes y ordenar por fecha
-const allPosts = [...agendaPosts, ...recursosConAgenda]
+const recursosPostsWithSource = recursosConAgenda.map(post => ({
+  ...post,
+  sourceCollection: 'recursos' as 'recursos'
+}));
+
+const allPosts = [...agendaPostsWithSource, ...recursosPostsWithSource]
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
@@ -23,6 +32,7 @@ const allPosts = [...agendaPosts, ...recursosConAgenda]
             title={post.data.title}
             excerpt={post.data.description}
             date={post.data.pubDate}
+            sourceCollection={post.sourceCollection}
           />
         ))
       }
