@@ -2,7 +2,8 @@
 title: Arduino Day 2023
 description: Celebrarem l'Arduino Day realitzant un curs d'iniciació gratuït el Dissabte 25 de Març de 2023.
 pubDate: 2023-03-06
-categories: agenda
+categories:
+  - agenda
 ---
 
 ### ARDUINO DAY 2023

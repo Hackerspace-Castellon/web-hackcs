@@ -2,7 +2,8 @@
 title: 3D Printer Party Madrid 2023
 description: Event d'impresió 3D en Madrid, 2023
 pubDate: 2023-02-14
-categories: agenda
+categories:
+  - agenda
 ---
 
 ### 3D PRINTER PARTY MADRID 2023

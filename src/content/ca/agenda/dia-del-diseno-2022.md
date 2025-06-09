@@ -2,7 +2,8 @@
 title: Dia del Disseny, Creativitat i Tecnologia 2022
 description: El dimecres 28 de setembre de 2022 en el hall de l'ESTCE es celebrarà la 5a edició del Dia del Disseny, Creativitat i Tecnologia de l'ESTCE, on podràs participar en les diverses activitats que les associacions de la UJI ofereixen i participar en un sorteig.
 pubDate: 2022-09-17
-categories: agenda
+categories:
+  - agenda
 ---
 
 ### DIA DEL DISSENY, CREATIVITAT I TECNOLOGIA 2022

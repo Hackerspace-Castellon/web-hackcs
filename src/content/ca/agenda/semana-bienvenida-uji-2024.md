@@ -2,7 +2,8 @@
 title: Setmana de Benvinguda 2024
 description: Els dies del 21 al 25 d'octubre de 2024 estarem a la Setmana de Benvinguda de la UJI, celebrant l'inici del nou curs i coneixent els nous estudiants.
 pubDate: 2024-10-18
-categories: agenda
+categories:
+  - agenda
 ---
 
 ### SETMANA DE BENNINGUDA UJI 2024

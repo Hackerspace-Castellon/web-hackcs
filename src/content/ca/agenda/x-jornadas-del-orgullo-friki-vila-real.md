@@ -2,7 +2,8 @@
 title: X Jornades de l'orgull friqui Vila-Real​
 description: Estarem a les X Jornades de l'orgull friqui a Vila-Real els dies 25 i 26 de Maig de 2024.
 pubDate: 2024-05-16
-categories: agenda
+categories:
+  - agenda
 ---
 
 ### X Jornadas del orgullo friki Vila-Real

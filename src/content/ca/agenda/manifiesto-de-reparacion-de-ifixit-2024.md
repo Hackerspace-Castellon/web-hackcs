@@ -2,7 +2,8 @@
 title: Manifest de Reparació d'iFixit 2024
 description: Des de Hackerspace Castelló s'han imprimint 10 cartells del Manifest de Reparació d'iFixit.
 pubDate: 2024-02-02
-categories: agenda
+categories:
+  - agenda
 ---
 
 ### MANIFEST DE REPARACIÓ iFixit

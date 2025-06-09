@@ -2,7 +2,8 @@
 title: DDCT 24
 description: El dia 26 de Setembre de 2024 estarem en el Dia del Disseny, Creativitat i la Tecnologia a l'ESTCE.
 pubDate: 2024-09-20
-categories: agenda
+categories:
+  - agenda
 ---
 
 ### DDCT 2024

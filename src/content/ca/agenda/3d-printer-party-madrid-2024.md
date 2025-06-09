@@ -2,7 +2,8 @@
 title: 3D Printer Party Madrid 2024
 description: Evento de impresión 3D en Madrid, 2024
 pubDate: 2024-04-13
-categories: agenda
+categories:
+  - agenda
 ---
 
 ### 3D PRINTER PARTY MADRID 2024

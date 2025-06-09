@@ -2,7 +2,8 @@
 title: Technocharlas UJI 2023
 description: Hem organitzat unes xerrades amb experts sobre diversos temes a les quals es podrà assistir tant presencialment a l'Aula Magna de la UJI com virtualment a través d'un enllaç de Google Meet.
 pubDate: 2023-01-24
-categories: agenda
+categories:
+  - agenda
 ---
 
 ### TECHNOCHARLAS UJI 2023

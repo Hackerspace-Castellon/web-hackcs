@@ -2,7 +2,8 @@
 title: IX Jornades de l'orgull friki Vila-Real​
 description: Assistirem a les IX Jornades de l'orgull friki a Vila-Real els dies 17 i 18 de Juny de 2023.
 pubDate: 2023-05-24
-categories: agenda
+categories:
+  - agenda
 ---
 
 ### IX Jornades de l'orgull friki Vila-Real

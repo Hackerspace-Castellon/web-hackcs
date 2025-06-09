@@ -2,7 +2,8 @@
 title: OSHWDem 2023
 description: Del 6 al 8 d'Octubre de 2023 viatjarem a A Corunya a participar en les Competicions OSHWDem 2023, participarem en les modalitats de robots velocistes i hebocon.
 pubDate: 2023-09-27
-categories: agenda
+categories:
+  - agenda
 ---
 
 ### OSHWDem 2023

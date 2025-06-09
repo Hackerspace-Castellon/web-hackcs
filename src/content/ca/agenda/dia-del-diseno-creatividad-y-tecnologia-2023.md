@@ -2,7 +2,8 @@
 title: Dia del Disseny, Creativitat i Tecnologia 2023
 description: El dijous 28 de setembre de 2023 en el hall de l'ESTCE es celebrarà la 5a edició del Dia del Disseny, Creativitat i Tecnologia de l'ESTCE, on podràs participar en les diverses activitats que les associacions de la UJI ofereixen i participar en un sorteig.
 pubDate: 2023-09-04
-categories: agenda
+categories:
+  - agenda
 ---
 
 ### Dia del Disseny, Creativitat i Tecnologia 2023
