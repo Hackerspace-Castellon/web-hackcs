@@ -7,36 +7,42 @@ const schema = z.object({
   pubDate: z.coerce.date(),
   updatedDate: z.coerce.date().optional(),
   heroImage: z.string().optional(),
-  categories: z.array(z.string()),
+  categories: z.union([
+    z.string(),
+    z.array(z.string())
+  ]).transform(val => 
+    Array.isArray(val) ? val : [val]
+  ),
 });
 
+// ⚠️ CAMBIAR: base apunta DIRECTAMENTE a la carpeta específica
 const agendaES = defineCollection({
-  loader: glob({ base: "./src/content/es", pattern: "**/*.{md,mdx}" }),
+  loader: glob({ base: "./src/content/es/agenda", pattern: "**/*.{md,mdx}" }),
   schema,
 });
 
 const agendaEN = defineCollection({
-  loader: glob({ base: "./src/content/en", pattern: "**/*.{md,mdx}" }),
+  loader: glob({ base: "./src/content/en/agenda", pattern: "**/*.{md,mdx}" }),
   schema,
 });
 
 const agendaVA = defineCollection({
-  loader: glob({ base: "./src/content/ca", pattern: "**/*.{md,mdx}" }),
+  loader: glob({ base: "./src/content/ca/agenda", pattern: "**/*.{md,mdx}" }),
   schema,
 });
 
 const recursosES = defineCollection({
-  loader: glob({ base: "./src/content/es", pattern: "**/*.{md,mdx}" }),
+  loader: glob({ base: "./src/content/es/recursos", pattern: "**/*.{md,mdx}" }),
   schema,
 });
 
 const recursosEN = defineCollection({
-  loader: glob({ base: "./src/content/en", pattern: "**/*.{md,mdx}" }),
+  loader: glob({ base: "./src/content/en/recursos", pattern: "**/*.{md,mdx}" }),
   schema,
 });
 
 const recursosVA = defineCollection({
-  loader: glob({ base: "./src/content/ca", pattern: "**/*.{md,mdx}" }),
+  loader: glob({ base: "./src/content/ca/recursos", pattern: "**/*.{md,mdx}" }),
   schema,
 });
 
