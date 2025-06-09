@@ -1,9 +1,8 @@
 ---
-title: "Ninart València 2022"
+title: Ninart València 2022
 description: El dia 27 de Novembre de 2022 estarem en l'esdeveniment de nines Ninart a València.
 pubDate: 2022-11-25
-categories: 
-  - "agenda"
+categories: agenda
 ---
 
 ### NINART VALÈNCIA 2022

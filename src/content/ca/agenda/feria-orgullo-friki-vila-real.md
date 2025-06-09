@@ -1,9 +1,8 @@
 ---
-title: "Fira de l'Orgull Friki Vila-Real"
+title: Fira de l'Orgull Friki Vila-Real
 description: Estarem a les octaves Jornades de l'Orgull Friki de Vila-Real els dies 4 i 5 de Juny de 2022.
 pubDate: 2022-06-05
-categories: 
-  - "agenda"
+categories: agenda
 ---
 
 ### FIRA DE L'ORGULL FRIKI VILA-REAL

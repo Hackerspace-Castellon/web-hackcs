@@ -1,9 +1,8 @@
 ---
-title: "PsicoLab"
+title: PsicoLab
 description: Hem creat una web per conscienciar sobre els trastorns mentals, es poden fer tests per comprovar l'estat mental, l'hem presentada a la Hackathon Facsa de 2022.
 pubDate: 2022-11-06
-categories: 
-  - "agenda"
+categories: agenda
 ---
 
 ### PSICOLAB

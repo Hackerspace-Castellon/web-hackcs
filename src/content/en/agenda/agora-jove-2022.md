@@ -1,9 +1,8 @@
 ---
-title: "Agora Jove 2022"
-description: "Agora Jove 2022"
-pubDate: "2022-10-30"
-categories: 
-  - "agenda"
+title: Agora Jove 2022
+description: Agora Jove 2022
+pubDate: 2022-10-30
+categories: agenda
 ---
 
 ### ÁGORA JOVE

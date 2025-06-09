@@ -1,9 +1,8 @@
 ---
-title: "Curs de Disseny 3D FreeCAD"
-description: "CURS DE DISSENY 3D FREECAD"
+title: Curs de Disseny 3D FreeCAD
+description: CURS DE DISSENY 3D FREECAD
 pubDate: 2022-05-29
-categories: 
-  - "recursos"
+categories: recursos
 ---
 
 ## <a href="https://drive.google.com/drive/folders/1-UYqwOEyzfhaRjzo5PrKtzpbJ9pyfDAO">ACCÉS AL GOOGLE DRIVE DEL CURS</a>

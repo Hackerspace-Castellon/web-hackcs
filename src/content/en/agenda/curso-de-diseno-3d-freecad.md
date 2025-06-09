@@ -1,9 +1,8 @@
 ---
-title: "Curso de Diseño 3D FreeCAD"
-description: "We will offer a course where we teach how to design and print a 3D part with FreeCAD from scratch, at UJI on April 1 and 2, 2022."
-pubDate: "2022-03-31"
-categories: 
-  - "agenda"
+title: Curso de Diseño 3D FreeCAD
+description: We will offer a course where we teach how to design and print a 3D part with FreeCAD from scratch, at UJI on April 1 and 2, 2022.
+pubDate: 2022-03-31
+categories: agenda
 ---
 
 ### CURSO DE DISEÑO 3D FREECAD

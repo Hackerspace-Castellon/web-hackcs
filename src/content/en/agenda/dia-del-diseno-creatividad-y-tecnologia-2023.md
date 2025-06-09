@@ -1,9 +1,8 @@
 ---
-title: "Design, Creativity, and Technology Day 2023"
-description: "On Thursday, September 28th, 2023, in the ESTCE hall, the 6th edition of the Design, Creativity, and Technology Day of the ESTCE will take place. You can participate in various activities offered by the UJI associations and enter a raffle."
-pubDate: "2023-09-04"
-categories: 
-  - "agenda"
+title: Design, Creativity, and Technology Day 2023
+description: On Thursday, September 28th, 2023, in the ESTCE hall, the 6th edition of the Design, Creativity, and Technology Day of the ESTCE will take place. You can participate in various activities offered by the UJI associations and enter a raffle.
+pubDate: 2023-09-04
+categories: agenda
 ---
 
 ### DESIGN, CREATIVITY, AND TECHNOLOGY DAY 2023

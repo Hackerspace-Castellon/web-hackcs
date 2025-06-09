@@ -1,10 +1,10 @@
----  
+---
 title: "OSHWDem 2023"  
 description: "From October 6 to 8, 2023, we will travel to A Coruña to participate in the OSHWDem 2023 Competitions, competing in the racing robots and Hebocon categories."  
 pubDate: 2023-09-27  
 categories:  
   - "agenda"  
----  
+---
 
 ### OSHWDem 2023  
 

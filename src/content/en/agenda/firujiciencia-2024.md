@@ -1,9 +1,8 @@
 ---
-title: "Firujiciencia 2024"
+title: Firujiciencia 2024
 description: We will be at Firujiciencia 2024 on Thursday, March 21, 2024.
 pubDate: 2024-03-10
-categories: 
-  - "agenda"
+categories: agenda
 ---
 
 ### FIRUJICIENCIA 2024

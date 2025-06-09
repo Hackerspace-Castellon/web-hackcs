@@ -1,9 +1,8 @@
 ---
-title: "Design, Creativity, and Technology Day 2022"
-description: "On Wednesday, September 28th, 2022, in the ESTCE hall, the 5th edition of the Design, Creativity, and Technology Day will be held, where you can participate in various activities and a raffle."
-pubDate: "2022-09-17"
-categories: 
-  - "agenda"
+title: Design, Creativity, and Technology Day 2022
+description: On Wednesday, September 28th, 2022, in the ESTCE hall, the 5th edition of the Design, Creativity, and Technology Day will be held, where you can participate in various activities and a raffle.
+pubDate: 2022-09-17
+categories: agenda
 ---
 
 ### DESIGN, CREATIVITY, AND TECHNOLOGY DAY 2022

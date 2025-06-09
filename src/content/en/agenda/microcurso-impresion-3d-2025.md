@@ -1,11 +1,11 @@
----  
-title: "3D Printing Microcourse 2025"  
-description: "Microcourse: '3D Printing: Slicing with Prusa Slicer and Parametric Modeling with Onshape'"  
-pubDate: 2025-02-18  
-categories:  
-  - "agenda"  
-  - "recursos"  
----  
+---
+title: 3D Printing Microcourse 2025
+description: "Microcourse: '3D Printing: Slicing with Prusa Slicer and Parametric Modeling with Onshape'"
+pubDate: 2025-02-18
+categories:
+  - agenda
+  - recursos
+---
 
 ## **Microcourse: "3D Printing: Slicing with Prusa Slicer and Parametric Modeling with Onshape"**  
 

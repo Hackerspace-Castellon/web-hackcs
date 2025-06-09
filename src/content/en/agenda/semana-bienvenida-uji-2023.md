@@ -1,10 +1,10 @@
----  
+---
 title: "UJI Welcome Week 2023"  
 description: "From October 23 to 27, 2023, we will be at the UJI Welcome Week, celebrating the start of the new academic year and meeting the new students."  
 pubDate: 2023-10-28  
 categories:  
   - "agenda"  
----  
+---
 
 ### UJI WELCOME WEEK 2023  
 

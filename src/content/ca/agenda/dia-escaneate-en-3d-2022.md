@@ -1,9 +1,8 @@
 ---
-title: "Dia d'Escaneig en 3D 2022"
+title: Dia d'Escaneig en 3D 2022
 description: El divendres 7 d'Octubre de 2022 al hall de l'ESTCE podràs escanejar-te des del cap fins als peus, a color i amb la teua forma corporal única i particular.
 pubDate: 2022-09-29
-categories: 
-  - "agenda"
+categories: agenda
 ---
 
 ### DIA D'ESCANEIG EN 3D 2022

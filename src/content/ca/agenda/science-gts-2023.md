@@ -1,9 +1,8 @@
 ---
-title: "SCIENCE GTS 2023"
+title: SCIENCE GTS 2023
 description: La vesprada del divendres 29 de setembre de 2023 a l'Àgora de la UJI, se celebrarà la Nit Europea de les Investigadores i Investigadors, allà podràs participar en les múltiples activitats dirigides a persones de totes les edats.
 pubDate: 2023-09-27
-categories: 
-  - "agenda"
+categories: agenda
 ---
 
 ### SCIENCE GTS 2023

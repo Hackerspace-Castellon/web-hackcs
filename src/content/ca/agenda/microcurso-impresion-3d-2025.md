@@ -1,10 +1,10 @@
 ---
-title: "Microcurs Impressió 3D 2025"
+title: Microcurs Impressió 3D 2025
 description: "Microcurs: 'Impressió 3D: Laminat amb Prusa Slicer i modelatge paramètric amb Onshape'"
 pubDate: 2025-02-18
-categories: 
-  - "agenda"
-  - "recursos"
+categories:
+  - agenda
+  - recursos
 ---
 
 ## **Microcurs: "Impressió 3D: Laminat amb Prusa Slicer i modelatge paramètric amb Onshape"**

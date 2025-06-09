@@ -1,10 +1,10 @@
----  
+---
 title: "Technocharlas UJI 2023"  
 description: "We have organized a series of expert talks on various topics, which can be attended both in person at the Aula Magna of the UJI and virtually via a Google Meet link."  
 pubDate: 2023-01-24  
 categories:  
   - "agenda"  
----  
+---
 
 ### TECHNOCHARLAS UJI 2023  
 

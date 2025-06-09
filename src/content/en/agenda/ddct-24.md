@@ -1,9 +1,8 @@
 ---
-title: "DDCT 24"
-description: "On September 26, 2024, we will be at the Day of Design, Creativity, and Technology at the ESTCE."
-pubDate: "2024-09-20"
-categories: 
-  - "agenda"
+title: DDCT 24
+description: On September 26, 2024, we will be at the Day of Design, Creativity, and Technology at the ESTCE.
+pubDate: 2024-09-20
+categories: agenda
 ---
 
 ### DDCT 2024

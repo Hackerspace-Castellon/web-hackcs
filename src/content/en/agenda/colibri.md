@@ -1,9 +1,8 @@
 ---
-title: "Colibrí"
-description: "We have created an application to promote the use of sustainable public and private transportation, presented at the Hackathon Facsa 2022."
-pubDate: "2022-11-06"
-categories: 
-  - "agenda"
+title: Colibrí
+description: We have created an application to promote the use of sustainable public and private transportation, presented at the Hackathon Facsa 2022.
+pubDate: 2022-11-06
+categories: agenda
 ---
 
 ### COLIBRÍ

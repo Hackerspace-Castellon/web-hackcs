@@ -1,9 +1,8 @@
 ---
-title: "Hackathon Facsa 2024"
+title: Hackathon Facsa 2024
 description: El dia 24 de Maig de 2024 guanyem la Hackathon FACSA al Port de Castelló, presentant el nostre projecte Plantify a la categoria de FP i Universitats.
 pubDate: 2024-05-24
-categories: 
-  - "agenda"
+categories: agenda
 ---
 
 ### HACKATHON FACSA 2024

@@ -1,9 +1,8 @@
 ---
-title: "Summer Tech 2024"
+title: Summer Tech 2024
 description: El dimecres 24 de juliol de 2024 al pinar es celebrarà la 1a edició del SUMMER TECH.
 pubDate: 2024-07-06
-categories: 
-  - "agenda"
+categories: agenda
 ---
 
 ### SUMMER TECH 2024

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/ca/agenda/3d-printer-party-madrid-2025.md",
+                "file": "src/content/ca/agenda/semana-bienvenida-uji-2024.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3d-printer-party-madrid-2025"
+              "title": "semana-bienvenida-uji-2024"
             }
           },
           {
@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/es/agenda/3d-printer-party-madrid-2025.md",
+                "file": "src/content/es/recursos/recurso-curso-de-diseno-freecad.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3d-printer-party-madrid-2025"
+              "title": "recurso-curso-de-diseno-freecad"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "src/content/es/recursos/recurso-curso-de-diseno-freecad.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of recurso-curso-de-diseno-freecad"
             }
           },
           {
@@ -178,7 +179,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 445.5
+    "width": 445.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,8 +193,34 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "bb90d2591834fd32",
+  "active": "8f2d15bf6d218e00",
   "lastOpenFiles": [
+    "src/content/es/recursos/microcurso-impresion-3d-2025.md",
+    "src/content/es/agenda/x-jornadas-del-orgullo-friki-vila-real.md",
+    "src/content/es/agenda/technocharlas-uji-2024.md",
+    "src/content/es/agenda/technocharlas-uji-2023.md",
+    "src/content/es/agenda/summer_tech_2024.md",
+    "src/content/es/agenda/semana-bienvenida-uji-2024.md",
+    "src/content/es/agenda/semana-bienvenida-uji-2023.md",
+    "src/content/es/agenda/semana-bienvenida-uji-2022.md",
+    "src/content/es/agenda/science-gts-2023.md",
+    "src/content/es/agenda/psicolab.md",
+    "src/content/es/agenda/oshwdem-2023.md",
+    "src/content/es/agenda/ninart-valencia-2022.md",
+    "src/content/es/agenda/microcurso-impresion-3d-2025.md",
+    "src/content/es/agenda/mednight-2022.md",
+    "src/content/es/agenda/manifiesto-de-reparacion-de-ifixit-2024.md",
+    "src/content/es/agenda/ix-jornadas-del-orgullo-friki-vila-real.md",
+    "src/content/es/agenda/hackathon-rural-montanejos.md",
+    "src/content/es/agenda/hackathon-facsa-2024.md",
+    "src/content/es/agenda/hackathon-facsa-2022.md",
+    "src/content/es/agenda/firujiciencia-2024.md",
+    "src/content/es/agenda/feria-orgullo-friki-vila-real.md",
+    "src/content/es/agenda/dia-escaneate-en-3d-2022.md",
+    "src/content/es/agenda/dia-del-diseno-creatividad-y-tecnologia-2023.md",
+    "src/content/es/agenda/dia-del-diseno-2022.md",
+    "src/content/es/agenda/ddct-24.md",
+    "src/content/es/agenda/curso-de-diseno-3d-freecad.md",
     "dist/es/agenda/agenda/3d-printer-party-madrid-2022/index.html",
     "dist/es/agenda/agenda/3d-printer-party-madrid-2022",
     "dist/en/agenda/agenda/mednight-2022/index.html",
@@ -203,32 +231,6 @@
     "dist/en/agenda/agenda/firujiciencia-2024",
     "dist/en/agenda/agenda/ddct-24/index.html",
     "dist/en/agenda/agenda/ddct-24",
-    "dist/en/agenda/agenda/colibri/index.html",
-    "node_modules/@astrojs/tailwind/README.md",
-    "node_modules/typescript/SECURITY.md",
-    "node_modules/typescript/README.md",
-    "node_modules/prettier/README.md",
-    "node_modules/remark-gfm/readme.md",
-    "node_modules/fontkit/README.md",
-    "node_modules/astro/README.md",
-    "node_modules/zod/README.md",
-    "node_modules/cssesc/README.md",
-    "node_modules/hast-util-to-html/readme.md",
-    "node_modules/@isaacs/cliui/node_modules/string-width/readme.md",
-    "node_modules/@isaacs/cliui/node_modules/wrap-ansi/readme.md",
-    "node_modules/@isaacs/cliui/node_modules/emoji-regex/README.md",
-    "node_modules/@isaacs/cliui/README.md",
-    "node_modules/postcss-nested/node_modules/postcss-selector-parser/README.md",
-    "node_modules/postcss-nested/node_modules/postcss-selector-parser/CHANGELOG.md",
-    "node_modules/postcss-nested/node_modules/postcss-selector-parser/API.md",
-    "node_modules/postcss-nested/README.md",
-    "node_modules/source-map/README.md",
-    "node_modules/js-yaml/README.md",
-    "node_modules/js-yaml/CHANGELOG.md",
-    "node_modules/@tailwindcss/typography/README.md",
-    "node_modules/postcss/README.md",
-    "node_modules/dset/readme.md",
-    "node_modules/fontace/README.md",
     "src/content/ca/agenda/images/Banner_principa_BG_2025.jpg",
     "src/content/en/agenda/images/Banner_principa_BG_2025.jpg",
     "src/content/es/agenda/images/Banner_principa_BG_2025.jpg",

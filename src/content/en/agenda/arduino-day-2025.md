@@ -1,9 +1,8 @@
 ---
-title: "Arduino Day 2025"
-description: "We will celebrate Arduino Day by offering a free introductory course on Thursday, March 20, 2025."
-pubDate: "2025-03-10"
-categories: 
-  - "agenda"
+title: Arduino Day 2025
+description: We will celebrate Arduino Day by offering a free introductory course on Thursday, March 20, 2025.
+pubDate: 2025-03-10
+categories: agenda
 ---
 
 ### ARDUINO DAY 2025

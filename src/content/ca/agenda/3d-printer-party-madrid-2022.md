@@ -1,9 +1,8 @@
 ---
-title: "3D Printer Party Madrid 2022"
-description: "Event d'impresió 3D en Madrid, 2022"
-pubDate: "2022-05-25"
-categories: "agenda"
-slug: "3d-printer-party-madrid-2022"
+title: 3D Printer Party Madrid 2022
+description: Event d'impresió 3D en Madrid, 2022
+pubDate: 2022-05-25
+categories: agenda
 ---
 
 ### 3D PRINTER PARTY MADRID 2022

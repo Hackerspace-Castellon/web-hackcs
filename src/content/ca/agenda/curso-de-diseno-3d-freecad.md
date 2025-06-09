@@ -1,9 +1,8 @@
 ---
-title: "Curso de Diseño 3D FreeCAD"
+title: Curso de Diseño 3D FreeCAD
 description: Realitzarem un curs en què ensenyarem a dissenyar i imprimir una peça en 3D amb FreeCAD des de zero, a la UJI els dies 1 i 2 d'Abril de 2022.
 pubDate: 2022-03-31
-categories: 
-  - "agenda"
+categories: agenda
 ---
 
 ### CURS DE DISSENY 3D FREECAD

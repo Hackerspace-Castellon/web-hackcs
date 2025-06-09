@@ -1,9 +1,8 @@
 ---
-title: "Arduino Day 2024"
-description: "We will celebrate Arduino Day by offering a free introductory course on Friday, March 22, 2024."
-pubDate: "2024-03-14"
-categories: 
-  - "agenda"
+title: Arduino Day 2024
+description: We will celebrate Arduino Day by offering a free introductory course on Friday, March 22, 2024.
+pubDate: 2024-03-14
+categories: agenda
 ---
 
 ### ARDUINO DAY 2024
