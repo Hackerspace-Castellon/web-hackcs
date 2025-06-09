@@ -3,7 +3,7 @@ import { getCollection } from "astro:content";
 import Hero from "@/components/Hero.astro";
 import Breadcrumb from "@/components/Breadcrumb.astro";
 import Section from "@/components/Section.astro";
-import PostCardES from "@/components/PostCardES.astro";
+import PostCardCA from "@/components/PostCardCA.astro";  // ← CORREGIR: era PostCardES
 import Layout from "@/layouts/Layout.astro";
 import { SITE_CONTENT } from "@/consts";
 
@@ -16,12 +16,25 @@ const content = SITE_CONTENT[locale] || SITE_CONTENT.es; // Usamos 'es' como val
 // Obtener el título y la descripción de "Agenda" y "About Us" en el idioma correspondiente
 const { TITLE } = content;
 
-const posts = (await getCollection("agendaCA")).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-)
-.slice(0, 4);
+const agendaPosts = await getCollection("agendaCA");
+const recursosConAgenda = (await getCollection("recursosCA"))
+  .filter(post => post.data.categories.includes("agenda"));
 
+// Marcar collection de origen
+const agendaPostsWithSource = agendaPosts.map(post => ({
+  ...post,
+  sourceCollection: 'agenda' as 'agenda'
+}));
 
+const recursosPostsWithSource = recursosConAgenda.map(post => ({
+  ...post,
+  sourceCollection: 'recursos' as 'recursos'
+}));
+
+// Combinar, ordenar y limitar a 4 posts más recientes
+const posts = [...agendaPostsWithSource, ...recursosPostsWithSource]
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 4);
 ---
 
 <Layout id="title" title={TITLE}>
@@ -32,11 +45,11 @@ const posts = (await getCollection("agendaCA")).sort(
         class="max-w-4xl text-xl md:text-lg opacity-90 text-center justify-evenly"
       >
         <p>
-        Hackerspace Castelló és l’associació per als amants de la informàtica, l’electrònica, els videojocs i el coneixement lliure. Actualment realitzem projectes relacionats amb electrònica, robòtica, impressió 3D i drons, entre altres. 
+        Hackerspace Castelló és l'associació per als amants de la informàtica, l'electrònica, els videojocs i el coneixement lliure. Actualment realitzem projectes relacionats amb electrònica, robòtica, impressió 3D i drons, entre altres. 
 
-        En el nostre local, situat a la Universitat Jaume I, comptes amb l’espai, material i eines necessàries per a iniciar els teus projectes.
+        En el nostre local, situat a la Universitat Jaume I, comptes amb l'espai, material i eines necessàries per a iniciar els teus projectes.
 
-        Contacta amb nosaltres i visita’ns!
+        Contacta amb nosaltres i visita'ns!
 
         </p>  
       </div>
@@ -51,11 +64,12 @@ const posts = (await getCollection("agendaCA")).sort(
     <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-4">
       {
         posts.map((post) => (
-          <PostCardES
+          <PostCardCA
             slug={post.id}
             title={post.data.title}
             excerpt={post.data.description}
             date={post.data.pubDate}
+            sourceCollection={post.sourceCollection}
           />
         ))
       }
