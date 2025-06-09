@@ -4,23 +4,35 @@ import PostCardES from "@/components/PostCardES.astro";
 import Section from "@/components/Section.astro";
 import Layout from "@/layouts/Layout.astro";
 
-const posts = (await getCollection("agendaES")).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-);
+const agendaPosts = await getCollection("agendaES");
+const recursosConAgenda = (await getCollection("recursosES"))
+  .filter(post => post.data.categories.includes("agenda"));
+  
+const agendaPostsWithSource = agendaPosts.map(post => ({
+  ...post,
+  sourceCollection: 'agenda' as 'agenda'
+}));
 
+const recursosPostsWithSource = recursosConAgenda.map(post => ({
+  ...post,
+  sourceCollection: 'recursos' as 'recursos'
+}));
 
+const allPosts = [...agendaPostsWithSource, ...recursosPostsWithSource]
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
 <Layout title="Agenda">
   <Section title="Agenda">
     <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-4">
       {
-        posts.map((post) => (
+        allPosts.map((post) => (
           <PostCardES
             slug={post.id}
             title={post.data.title}
             excerpt={post.data.description}
             date={post.data.pubDate}
+            sourceCollection={post.sourceCollection}
           />
         ))
       }

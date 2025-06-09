@@ -6,15 +6,15 @@ type Props = {
   slug: string;
   excerpt: string;
   date: Date;
+  sourceCollection?: 'agenda' | 'recursos';  // ← AÑADIR: Para saber de dónde viene el post
 };
 
-const { title, slug, excerpt, date } = Astro.props;
+const { title, slug, excerpt, date, sourceCollection = 'agenda' } = Astro.props;
 
 // Obtener idioma actual usando Astro.currentLocale
 const currentLocale = Astro.currentLocale || 'es';
 
-// Generar URL localizada correcta usando helper oficial de Astro
-const agendaUrl = getRelativeLocaleUrl(currentLocale, `agenda/${slug}`);
+const postUrl = getRelativeLocaleUrl(currentLocale, `${sourceCollection}/${slug}`);
 ---
 
 <div
@@ -29,7 +29,7 @@ const agendaUrl = getRelativeLocaleUrl(currentLocale, `agenda/${slug}`);
   </div>
 
   <div class="p-6 tracking-wider">
-    <a href={agendaUrl} class="block group">
+    <a href={postUrl} class="block group">
       <h2 class="text-xl font-medium text-white mb-2">
         <span class="ba text-white/70 mr-2">❯</span>
         {title}
@@ -47,7 +47,7 @@ const agendaUrl = getRelativeLocaleUrl(currentLocale, `agenda/${slug}`);
       <p
         class="text-white absolute bottom-4 font-medium inline-flex items-center group-hover:underline-offset-4 underline-offset-8 underline transition-all ease-in-out"
       >
-        Read more
+        Llegir més
         <svg
           class="w-4 h-4 ml-2 transform group-hover:-translate-x-1 transition-transform"
           fill="none"
