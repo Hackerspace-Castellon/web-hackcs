@@ -1,0 +1,175 @@
+---
+// src/pages/index.astro
+// Detección automática de idioma y redirección para HackCS
+
+// Configuración de idiomas soportados
+const supportedLocales = ['es', 'ca', 'en'];
+const defaultLocale = 'es'; // Español como idioma por defecto para HackCS
+
+// Obtener el header Accept-Language del navegador
+const acceptLanguage = Astro.request.headers.get('accept-language') || '';
+
+// Función para detectar el idioma preferido
+function detectPreferredLanguage(acceptLanguage, supportedLocales, defaultLocale) {
+  if (!acceptLanguage) {
+    return defaultLocale;
+  }
+
+  // Parsear el header Accept-Language
+  // Formato típico: "es-ES,es;q=0.9,en;q=0.8,ca;q=0.7"
+  const languages = acceptLanguage
+    .split(',')
+    .map(lang => {
+      const [locale, q = 'q=1'] = lang.split(';');
+      const quality = parseFloat(q.split('=')[1] || '1');
+      return {
+        locale: locale.trim().split('-')[0].toLowerCase(),
+        quality
+      };
+    })
+    .sort((a, b) => b.quality - a.quality); // Ordenar por calidad (preferencia)
+
+  // Buscar el primer idioma soportado
+  for (const { locale } of languages) {
+    if (supportedLocales.includes(locale)) {
+      return locale;
+    }
+  }
+
+  // Si no se encuentra ningún idioma soportado, usar el por defecto
+  return defaultLocale;
+}
+
+// Detectar idioma preferido
+const preferredLocale = detectPreferredLanguage(acceptLanguage, supportedLocales, defaultLocale);
+
+// Redirigir al idioma detectado
+return Astro.redirect(`/${preferredLocale}/`, 302);
+---
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackerspace Castellón - Redirigiendo...</title>
+    <meta name="description" content="Asociación de amantes de la informática, electrónica y conocimiento libre en Castellón">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    
+    <!-- No mostrar en buscadores esta página de redirección -->
+    <meta name="robots" content="noindex, nofollow">
+    
+    <!-- Redirección JavaScript como fallback por si Astro.redirect falla -->
+    <script>
+        // Fallback en caso de que la redirección del servidor no funcione
+        (function() {
+            const supportedLocales = ['es', 'ca', 'en'];
+            const defaultLocale = 'es';
+            
+            function getPreferredLanguage() {
+                if (!navigator.language) return defaultLocale;
+                
+                const userLang = navigator.language.split('-')[0].toLowerCase();
+                return supportedLocales.includes(userLang) ? userLang : defaultLocale;
+            }
+            
+            // Solo redirigir si estamos en la página raíz
+            if (window.location.pathname === '/') {
+                const lang = getPreferredLanguage();
+                window.location.replace(`/${lang}/`);
+            }
+        })();
+    </script>
+    
+    <!-- Estilos mínimos para la página de carga -->
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background: #000;
+            color: #00ff00;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 400px;
+            padding: 2rem;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            color: #00ff00;
+        }
+        
+        .loading {
+            margin: 1rem 0;
+        }
+        
+        .spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 2px solid #00ff00;
+            border-radius: 50%;
+            border-top-color: transparent;
+            animation: spin 1s ease-in-out infinite;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        .message {
+            font-size: 0.9rem;
+            opacity: 0.8;
+            margin-top: 1rem;
+        }
+        
+        .fallback-links {
+            margin-top: 2rem;
+            font-size: 0.8rem;
+        }
+        
+        .fallback-links a {
+            color: #00ff00;
+            text-decoration: none;
+            margin: 0 0.5rem;
+            border: 1px solid #00ff00;
+            padding: 0.25rem 0.5rem;
+            display: inline-block;
+            margin: 0.25rem;
+        }
+        
+        .fallback-links a:hover {
+            background: #00ff00;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">HackCS</div>
+        <div class="loading">
+            <div class="spinner"></div>
+        </div>
+        <div class="message">Detectando idioma y redirigiendo...</div>
+        
+        <!-- Enlaces de fallback por si JavaScript está deshabilitado -->
+        <div class="fallback-links">
+            <div>Si no eres redirigido automáticamente:</div>
+            <a href="/es/">Español</a>
+            <a href="/ca/">Català</a>
+            <a href="/en/">English</a>
+        </div>
+    </div>
+</body>
+</html>
