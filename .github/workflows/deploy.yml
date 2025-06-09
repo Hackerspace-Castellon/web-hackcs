@@ -4,7 +4,6 @@ on:
   push:
     branches: [ main ]
     paths: 
-      - 'src/content/**'
       - 'src/**'
       - 'astro.config.mjs'
       - 'package.json'
@@ -19,28 +18,11 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       
-    # ⚠️ PASO DE DEBUG - Verificar que los archivos están ahí ⚠️
-    - name: Verify repository contents
-      run: |
-        echo "=== Working directory ==="
-        pwd
-        echo "=== List files ==="
-        ls -la
-        echo "=== Check package.json ==="
-        if [ -f "package.json" ]; then
-          echo "✅ package.json found!"
-          echo "Content preview:"
-          head -10 package.json
-        else
-          echo "❌ package.json NOT found"
-          echo "Files in current directory:"
-          find . -name "*.json" -o -name "package*"
-        fi
-        
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
         node-version: '18'
+        cache: 'npm'
         
     - name: Install dependencies
       run: npm install
@@ -55,7 +37,7 @@ jobs:
         REMOTE_PORT: ${{ secrets.REMOTE_PORT }}
         REMOTE_USER: ${{ secrets.REMOTE_USER }}
         REMOTE_PASSWORD: ${{ secrets.REMOTE_PASSWORD }}
-        REMOTE_SSH_KEY: ${{ secrets.REMOTE_SSH_KEY }}
+        REMOTE_SSH_KEY: ${{ secrets.REMOTE_SSH_KEY }}  # ← Secret vacío
         REMOTE_PATH: ${{ secrets.REMOTE_PATH }}
         LOCAL_PATH: ./dist/
         RSYNC_OPTIONS: -avz --delete
