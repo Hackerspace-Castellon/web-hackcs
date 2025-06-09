@@ -16,7 +16,6 @@ jobs:
     name: Build and Deploy to UJI Server
     
     steps:
-    # ⚠️ CRÍTICO: Este paso DEBE ser el primero y con versión correcta ⚠️
     - name: Checkout repository
       uses: actions/checkout@v4
       

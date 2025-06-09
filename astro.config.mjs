@@ -5,12 +5,10 @@ import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 import { DEFAULT_LOCALE_SETTING, LOCALES_SETTING } from './src/locales';
 
-import netlify from "@astrojs/netlify";
-
 // https://astro.build/config
 export default defineConfig({
   output: "static",
-  site: "https://token-template.deno.dev",
+  site: "https://hackcs.uji.es",
 
   i18n: {
     defaultLocale: "es",
@@ -41,6 +39,4 @@ export default defineConfig({
       theme: "github-dark-high-contrast",
     },
   },
-
-  adapter: netlify(),
 });
