@@ -1,9 +1,9 @@
 ---
-title: "Technocharlas UJI 2023"
+title: Technocharlas UJI 2023
 description: Hemos organizado unas charlas con expertos sobre diversos temas a las que se podrán asistir tanto presencialmente en el Aula Magna de la UJI como virtualmente a través de un enlace de Google Meet.
 pubDate: 2023-01-24
-categories: 
-  - "agenda"
+categories:
+  - agenda
 ---
 
 ### TECHNOCHARLAS UJI 2023

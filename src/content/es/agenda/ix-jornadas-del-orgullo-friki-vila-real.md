@@ -1,9 +1,9 @@
 ---
-title: "IX Jornadas del orgullo friki Vila-Real​"
+title: IX Jornadas del orgullo friki Vila-Real​
 description: Estaremos en las IX Jornadas del orgullo friki en Vila-Real los días 17 y 18 de Junio de 2023.
 pubDate: 2023-05-24
-categories: 
-  - "agenda"
+categories:
+  - agenda
 ---
 
 ### IX Jornadas del orgullo friki Vila-Real

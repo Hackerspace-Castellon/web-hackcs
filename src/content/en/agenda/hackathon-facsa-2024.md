@@ -1,8 +1,9 @@
 ---
-title: "Hackathon Facsa 2024"  
-description: "On May 24, 2024, we won the FACSA Hackathon at Port de Castelló, presenting our project Plantify in the Vocational Training and University category."  
-pubDate: 2024-05-24  
-categories: "agenda"  
+title: Hackathon Facsa 2024
+description: On May 24, 2024, we won the FACSA Hackathon at Port de Castelló, presenting our project Plantify in the Vocational Training and University category.
+pubDate: 2024-05-24
+categories:
+  - agenda
 ---
 
 ### HACKATHON FACSA 2024  

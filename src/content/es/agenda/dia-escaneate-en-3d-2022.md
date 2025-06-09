@@ -1,9 +1,9 @@
 ---
-title: "Día de Escanéate en 3D 2022"
+title: Día de Escanéate en 3D 2022
 description: El viernes 7 de Octubre de 2022 en el hall de la ESTCE podrás escanearte de la cabeza a los pies, a color y con tu forma corporal única y particular.
 pubDate: 2022-09-29
-categories: 
-  - "agenda"
+categories:
+  - agenda
 ---
 
 ### DÍA DE ESCANÉATE EN 3D 2022

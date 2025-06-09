@@ -1,8 +1,9 @@
 ---
-title: "Vila-Real Geek Pride Fair"  
-description: "We will be at the eighth Vila-Real Geek Pride Days on June 4 and 5, 2022."  
-pubDate: "2022-06-05"  
-categories: "agenda"  
+title: Vila-Real Geek Pride Fair
+description: We will be at the eighth Vila-Real Geek Pride Days on June 4 and 5, 2022.
+pubDate: 2022-06-05
+categories:
+  - agenda
 ---
 
 ### VILA-REAL GEEK PRIDE FAIR  

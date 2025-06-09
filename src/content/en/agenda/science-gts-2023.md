@@ -1,9 +1,9 @@
 ---
-title: "SCIENCE GTS 2023"  
-description: "On the afternoon of Friday, September 29, 2023, at the UJI Agora, the European Researchers' Night will be celebrated, where you can participate in multiple activities for people of all ages."  
-pubDate: 2023-09-27  
-categories:  
-  - "agenda"  
+title: SCIENCE GTS 2023
+description: On the afternoon of Friday, September 29, 2023, at the UJI Agora, the European Researchers' Night will be celebrated, where you can participate in multiple activities for people of all ages.
+pubDate: 2023-09-27
+categories:
+  - agenda
 ---
 
 ### SCIENCE GTS 2023  

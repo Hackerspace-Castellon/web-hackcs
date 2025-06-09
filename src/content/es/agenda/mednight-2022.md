@@ -1,9 +1,9 @@
 ---
-title: "MedNight UJI 2022"
+title: MedNight UJI 2022
 description: El viernes 30 de Septiembre de 2022 asistiremos junto con otras asociaciones de la UJI, a la Noche Mediterránea de las Investigadoras e Investigadores (MEDNIGHT).
 pubDate: 2022-09-28
-categories: 
-  - "agenda"
+categories:
+  - agenda
 ---
 
 ### MEDNIGHT UJI 2022

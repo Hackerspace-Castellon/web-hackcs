@@ -1,9 +1,9 @@
 ---
-title: "Technocharlas UJI 2024"
+title: Technocharlas UJI 2024
 description: Hemos organizado unas charlas con expertos sobre diversos temas a las que se podrán asistir tanto presencialmente en el Aula TD1302FR (ESTCE) como virtualmente a través de un enlace de Google Meet.
 pubDate: 2024-02-21
-categories: 
-  - "agenda"
+categories:
+  - agenda
 ---
 
 ### TECHNOCHARLAS UJI 2024

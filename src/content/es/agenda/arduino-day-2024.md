@@ -1,9 +1,9 @@
 ---
-title: "Arduino Day 2024"
+title: Arduino Day 2024
 description: Celebraremos el Arduino Day realizando un curso de iniciación gratuito el Viernes 22 de Marzo de 2024.
 pubDate: 2024-03-14
-categories: 
-  - "agenda"
+categories:
+  - agenda
 ---
 
 ### ARDUINO DAY 2024

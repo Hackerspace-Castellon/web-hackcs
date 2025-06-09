@@ -2,7 +2,8 @@
 title: 3D Printer Party Madrid 2025
 description: 3D printing event in Madrid, 2025
 pubDate: 2025-04-21
-categories: agenda
+categories:
+  - agenda
 ---
 ### 3D PRINTER PARTY MADRID 2025
 

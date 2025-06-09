@@ -1,9 +1,9 @@
 ---
-title: "X Jornadas del orgullo friki Vila-Real​"  
-description: "Estaremos en las X Jornadas del orgullo friki en Vila-Real los días 25 y 26 de Mayo de 2024."  
-pubDate: 2024-05-16  
-categories:  
-  - "agenda"  
+title: X Jornadas del orgullo friki Vila-Real​
+description: Estaremos en las X Jornadas del orgullo friki en Vila-Real los días 25 y 26 de Mayo de 2024.
+pubDate: 2024-05-16
+categories:
+  - agenda
 ---
 
 ### X Jornadas del orgullo friki Vila-Real  

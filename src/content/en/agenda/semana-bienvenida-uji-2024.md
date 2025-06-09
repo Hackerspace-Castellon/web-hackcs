@@ -1,9 +1,9 @@
 ---
-title: "UJI Welcome Week 2024"  
-description: "From October 21 to 25, 2024, we will be at the UJI Welcome Week, celebrating the start of the new academic year and meeting the new students."  
-pubDate: 2024-10-18  
-categories:  
-  - "agenda"  
+title: UJI Welcome Week 2024
+description: From October 21 to 25, 2024, we will be at the UJI Welcome Week, celebrating the start of the new academic year and meeting the new students.
+pubDate: 2024-10-18
+categories:
+  - agenda
 ---
 
 ### UJI WELCOME WEEK 2024  

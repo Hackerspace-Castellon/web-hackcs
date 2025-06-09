@@ -1,9 +1,9 @@
 ---
-title: "Summer Tech 2024"  
-description: "On Wednesday, July 24, 2024, the 1st edition of SUMMER TECH will be held at El Pinar."  
-pubDate: 2024-07-06  
-categories:  
-  - "agenda"  
+title: Summer Tech 2024
+description: On Wednesday, July 24, 2024, the 1st edition of SUMMER TECH will be held at El Pinar.
+pubDate: 2024-07-06
+categories:
+  - agenda
 ---
 
 ### SUMMER TECH 2024  

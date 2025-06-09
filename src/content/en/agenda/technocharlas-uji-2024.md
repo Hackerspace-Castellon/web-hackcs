@@ -1,9 +1,9 @@
 ---
-title: "Technocharlas UJI 2024"  
-description: "We have organized a series of expert talks on various topics, which can be attended both in person at the Aula TD1302FR (ESTCE) and virtually via a Google Meet link."  
-pubDate: 2024-02-21  
-categories:  
-  - "agenda"  
+title: Technocharlas UJI 2024
+description: We have organized a series of expert talks on various topics, which can be attended both in person at the Aula TD1302FR (ESTCE) and virtually via a Google Meet link.
+pubDate: 2024-02-21
+categories:
+  - agenda
 ---
 
 ### TECHNOCHARLAS UJI 2024  

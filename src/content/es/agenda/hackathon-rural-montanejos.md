@@ -1,9 +1,9 @@
 ---
-title: "Hackathon Rural Montanejos"
+title: Hackathon Rural Montanejos
 description: Asistiremos al primer Hackathon Rural presencial que tendrá lugar en Montanejos, Castellón los días 11, 12, y 13 de Marzo de 2022.
 pubDate: 2022-03-10
-categories: 
-  - "agenda"
+categories:
+  - agenda
 ---
 
 ### HACKATHON RURAL MONTANEJOS

@@ -1,9 +1,9 @@
 ---
-title: "Semana de Bienvenida 2024"
+title: Semana de Bienvenida 2024
 description: Los días del 21 al 25 de Octubre de 2024 estaremos en la Semana de Bienvenida de la UJI, celebrando el inicio del nuevo curso y conociendo a los nuevos estudiantes.
 pubDate: 2024-10-18
-categories: 
-  - "agenda"
+categories:
+  - agenda
 ---
 
 ### SEMANA DE BIENVENIDA UJI 2024

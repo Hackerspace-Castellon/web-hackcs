@@ -2,7 +2,8 @@
 title: Arduino Day 2023
 description: We will celebrate Arduino Day by offering a free introductory course on Saturday, March 25, 2023.
 pubDate: 2023-03-06
-categories: agenda
+categories:
+  - agenda
 ---
 
 ### ARDUINO DAY 2023

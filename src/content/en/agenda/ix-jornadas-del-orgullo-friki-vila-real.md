@@ -2,7 +2,8 @@
 title: IX Vila-Real Geek Pride Days
 description: We will be at the IX Geek Pride Days in Vila-Real on June 17 and 18, 2023.
 pubDate: 2023-05-24
-categories: agenda
+categories:
+  - agenda
 ---
 
 ### IX VILA-REAL GEEK PRIDE DAYS  

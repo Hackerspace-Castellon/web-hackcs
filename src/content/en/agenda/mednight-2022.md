@@ -2,7 +2,8 @@
 title: MedNight UJI 2022
 description: On Friday, September 30, 2022, we will attend the Mediterranean Researchers' Night (MEDNIGHT) alongside other UJI associations.
 pubDate: 2022-09-28
-categories: agenda
+categories:
+  - agenda
 ---
 
 ### MEDNIGHT UJI 2022  

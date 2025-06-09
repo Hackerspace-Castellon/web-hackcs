@@ -1,9 +1,9 @@
 ---
-title: "Manifiesto de Reparación de iFixit 2024"
+title: Manifiesto de Reparación de iFixit 2024
 description: Desde Hackerspace Castellón se han impreso 10 carteles del Manifiesto de Reparación de iFixit
 pubDate: 2024-02-02
-categories: 
-  - "agenda"
+categories:
+  - agenda
 ---
 
 ### MANIFIESTO DE REPARACIÓN iFixit

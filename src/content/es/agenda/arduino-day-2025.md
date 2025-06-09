@@ -1,9 +1,9 @@
 ---
-title: "Arduino Day 2025"
+title: Arduino Day 2025
 description: Celebraremos el Arduino Day realizando un curso de iniciación gratuito el Jueves 20 de Marzo de 2025.
 pubDate: 2025-03-10
-categories: 
-  - "agenda"
+categories:
+  - agenda
 ---
 
 ### ARDUINO DAY 2025

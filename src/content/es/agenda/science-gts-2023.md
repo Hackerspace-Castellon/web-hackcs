@@ -1,9 +1,9 @@
 ---
-title: "SCIENCE GTS 2023"
+title: SCIENCE GTS 2023
 description: La tarde del viernes 29 de Septiembre de 2023 en el Ágora de la UJI, se celebrará la Noche Europea de las Investigadoras e Investigadores, allí podrás participar en las múltiples actividades dirigidas a personas de todas las edades.
 pubDate: 2023-09-27
-categories: 
-  - "agenda"
+categories:
+  - agenda
 ---
 
 ### SCIENCE GTS 2023

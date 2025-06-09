@@ -1,9 +1,9 @@
 ---
-title: "FreeCAD 3D Desgin Course"
-description: "FREECAD 3D DESIGN COURSE"
+title: FreeCAD 3D Desgin Course
+description: FREECAD 3D DESIGN COURSE
 pubDate: 2022-05-29
-categories: 
-  - "recursos"
+categories:
+  - recursos
 ---
 
 ## <a href="https://drive.google.com/drive/folders/1-UYqwOEyzfhaRjzo5PrKtzpbJ9pyfDAO">ACCESS TO THE GOOGLE DRIVE OF THE COURSE</a>

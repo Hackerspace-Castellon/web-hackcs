@@ -1,9 +1,9 @@
 ---
-title: "UJI Welcome Week 2022"  
-description: "From October 17 to 20, 2022, we will be at the UJI Welcome Week, celebrating the start of the new academic year and meeting the new students."  
-pubDate: 2022-10-16  
-categories:  
-  - "agenda"  
+title: UJI Welcome Week 2022
+description: From October 17 to 20, 2022, we will be at the UJI Welcome Week, celebrating the start of the new academic year and meeting the new students.
+pubDate: 2022-10-16
+categories:
+  - agenda
 ---
 
 ### UJI WELCOME WEEK 2022  

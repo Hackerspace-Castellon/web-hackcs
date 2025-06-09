@@ -1,9 +1,9 @@
 ---
-title: "Hackathon Facsa 2022"
+title: Hackathon Facsa 2022
 description: Los días del 4 al 6 de Noviembre de 2022 estaremos en la Hackathon Facsa en el Port de Castelló, participando en uno de los retos de "empoderamiento digital".
 pubDate: 2022-11-01
-categories: 
-  - "agenda"
+categories:
+  - agenda
 ---
 
 ### HACKATHON FACSA 2022

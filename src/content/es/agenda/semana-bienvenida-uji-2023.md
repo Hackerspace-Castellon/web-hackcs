@@ -1,9 +1,9 @@
 ---
-title: "Semana de Bienvenida UJI 2023"
+title: Semana de Bienvenida UJI 2023
 description: Los días del 23 al 27 de Octubre de 2023 estaremos en la Semana de Bienvenida de la UJI, celebrando el inicio del nuevo curso y conociendo a los nuevos estudiantes.
 pubDate: 2023-10-28
-categories: 
-  - "agenda"
+categories:
+  - agenda
 ---
 
 ### SEMANA DE BIENVENIDA UJI 2023

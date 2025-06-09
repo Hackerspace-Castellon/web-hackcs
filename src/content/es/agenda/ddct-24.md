@@ -1,9 +1,9 @@
 ---
-title: "DDCT 24"
+title: DDCT 24
 description: El día 26 de Septiembre de 2024 estaremos en el Día del Diseño, Creatividad y la Tecnología en la ESTCE.
 pubDate: 2024-09-20
-categories: 
-  - "agenda"
+categories:
+  - agenda
 ---
 
 ### DDCT 2024

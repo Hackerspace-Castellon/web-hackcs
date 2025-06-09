@@ -1,9 +1,9 @@
 ---
-title: "Feria Orgullo Friki Vila-Real"
+title: Feria Orgullo Friki Vila-Real
 description: Estaremos en las octavas Jornadas del Orgullo Friki de Vila-Real los días 4 y 5 de Junio de 2022.
 pubDate: 2022-06-05
-categories: 
-  - "agenda"
+categories:
+  - agenda
 ---
 
 ### FERIA DEL ORGULLO FRIKI VILA-REAL

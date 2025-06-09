@@ -1,9 +1,9 @@
 ---
-title: "Semana de Bienvenida UJI 2022"
+title: Semana de Bienvenida UJI 2022
 description: Los días del 17 al 20 de Octubre de 2022 estaremos en la Semana de Bienvenida de la UJI, celebrando el inicio del nuevo curso y conociendo a los nuevos estudiantes.
 pubDate: 2022-10-16
-categories: 
-  - "agenda"
+categories:
+  - agenda
 ---
 
 ### SEMANA DE BIENVENIDA UJI 2022

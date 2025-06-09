@@ -2,7 +2,8 @@
 title: iFixit Repair Manifesto 2024
 description: Hackerspace Castellón has printed 10 posters of the iFixit Repair Manifesto.
 pubDate: 2024-02-02
-categories: agenda
+categories:
+  - agenda
 ---
 
 ### IFIXIT REPAIR MANIFESTO  

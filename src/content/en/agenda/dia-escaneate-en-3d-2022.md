@@ -2,7 +2,8 @@
 title: 3D Scanning Day 2022
 description: On Friday, October 7th, 2022, in the ESTCE hall, you will be able to scan yourself from head to toe, in color, capturing your unique and particular body shape.
 pubDate: 2022-09-29
-categories: agenda
+categories:
+  - agenda
 ---
 
 ### 3D SCANNING DAY 2022
