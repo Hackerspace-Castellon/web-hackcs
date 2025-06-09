@@ -19,7 +19,7 @@ const allPosts = [...agendaPosts, ...recursosConAgenda]
       {
         allPosts.map((post) => (
           <PostCardCA
-            slug={post.slug}
+            slug={post.id}
             title={post.data.title}
             excerpt={post.data.description}
             date={post.data.pubDate}
