@@ -16,9 +16,28 @@ jobs:
     name: Build and Deploy to UJI Server
     
     steps:
+    # ⚠️ CRÍTICO: Este paso DEBE ser el primero y con versión correcta ⚠️
     - name: Checkout repository
       uses: actions/checkout@v4
       
+    # ⚠️ PASO DE DEBUG - Verificar que los archivos están ahí ⚠️
+    - name: Verify repository contents
+      run: |
+        echo "=== Working directory ==="
+        pwd
+        echo "=== List files ==="
+        ls -la
+        echo "=== Check package.json ==="
+        if [ -f "package.json" ]; then
+          echo "✅ package.json found!"
+          echo "Content preview:"
+          head -10 package.json
+        else
+          echo "❌ package.json NOT found"
+          echo "Files in current directory:"
+          find . -name "*.json" -o -name "package*"
+        fi
+        
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
