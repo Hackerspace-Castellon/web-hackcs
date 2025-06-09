@@ -1,20 +1,138 @@
 ---
-import { SITE_TITLE } from "@/consts";
-
 const today = new Date();
----
+import fb from "@/images/fb.png";
+import tw from "@/images/tw.png";
+import gm from "@/images/gm.png";
+import ubi from "@/images/ubi.png";
+import ig from "@/images/ig.png";
+import ujimotor from "@/images/ujimotor.png";
+import laplantilla from "@/images/plantilla.png";
+import motostudent from "@/images/motostudent.png";
+import otakuonda from "@/images/otakuonda.png";
+import clubjocs from "@/images/clubjocs.png";
+import voluta from "@/images/voluta.png";
+import ifixit from "@/images/ifixit.png";
+import { Image } from "astro:assets";
 
-<div class="h-28 overflow-hidden">
-  <div class="hero-bg">
-    1000001100000000101001011011110000000101000011000100111110110100101101101101011000111110111010010000010010101100011001111110010110011010000011001110001100111010010010010011000001001100001111100010100101001010101000000011101000010000000000011101101001010100110111110100001100010100001100010100010110001110001011000001011110010100101011101100001010011100100010000001010000100011111011010110000001010010100000110011000010100001110111101010110010111100111100011001000011011001110000000000101110110001101111101110011011100010111011010001000100101101101100110111010011010110010000101010010000100100110101101110101011011001000111100111001011101000101101001001001011011000011111001001100101110100000111000100010010100001111101100001001110011011111001111101001110000000010000100101101101011011111000011100000010110111001110000110110100110100110011101100000101011101001010111001000000101000010111110101100110000110110001101000101100001110000110110011001010001011011000110100000101111101000011110110100010011110
-  </div>
-</div>
-<section
-  id="footer"
-  class="w-full grid relative place-items-center text-center py-4 bg-white/[0.001]"
->
-  <div class="px-10 py-3 border-2 border-white">
-    &copy; {today.getFullYear()}
-    {SITE_TITLE}. All rights reserved.
-  </div>
-</section>
+import { SITE_CONTENT } from "@/consts";
+// Detectar el idioma de la URL
+const locale: 'es' | 'en' | 'ca' = Astro.url.pathname.split("/")[1] as 'es' | 'en' | 'ca';
+
+
+---
+<html class="h-full">
+  <body class="h-full flex flex-col">
+    <div class="flex-grow">
+      <!-- Aquí va el contenido principal de la página -->
+      <div class="h-28 overflow-hidden">
+        <div class="hero-bg">
+          1000001100000000101001011011110000000101000011000100111110110100101101101101011000111110111010010000010010101100011001111110010110011010000011001110001100111010010010010011000001001100001111100010100101001010101000000011101000010000000000011101101001010100110111110100001100010100001100010100010110001110001011000001011110010100101011101100001010011100100010000001010000100011111011010110000001010010100000110011000010100001110111101010110010111100111100011001000011011001110000000000101110110001101111101110011011100010111011010001000100101101101100110111010011010110010000101010010000100100110101101110101011011001000111100111001011101000101101001001001011011000011111001001100101110100000111000100010010100001111101100001001110011011111001111101001110000000010000100101101101011011111000011100000010110111001110000110110100110100110011101100000101011101001010111001000000101000010111110101100110000110110001101000101100001110000110110011001010001011011000110100000101111101000011110110100010011110
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <section id="footer" class="w-full grid relative place-items-center text-center py-4 text-white">
+      <div class="px-4 py-3 w-[98%] mx-auto border-2 border-white md:px-10">
+        <div class="flex flex-col md:flex-row justify-between items-center w-full">
+          <div class="flex justify-start w-full md:w-auto mb-4 md:mb-0">
+            <div class="text-base md:text-lg font-bold whitespace-nowrap">
+              <em>👾 HackCS {today.getFullYear()} </em>
+            </div>
+          </div>
+          <!-- Redes Sociales -->
+          <div class="flex justify-center w-full md:w-auto">
+            <div class="flex space-x-4">
+              <a href="https://facebook.com/Hackerspace-Castell%25C3%25B3n-1555573647876423">
+                <Image
+                  alt="facebook"
+                  src={fb}
+                  class="h-8 w-auto object-contain"
+                />
+              </a>
+              <a href="https://twitter.com/hackCS">
+                <Image
+                  alt="twitter"
+                  src={tw}
+                  class="h-8 w-auto object-contain"
+                />
+              </a>
+              <a href="mailto:hackcs@hackcs.org">
+                <Image
+                  alt="email"
+                  src={gm}
+                  class="h-8 w-auto object-contain"
+                />
+              </a>
+              <a href="https://www.google.es/maps/place/Asociaci%C3%B3n+Hackerspace+Castell%C3%B3n/@39.9930084,-0.0716082,17z/data=!3m2!4b1!5s0xd5ffe0f16ec4d91:0x79b3d77c379486df!4m6!3m5!1s0xd5fff7ee1417e9d:0xce7292931660a09a!8m2!3d39.9930043!4d-0.0690333!16s%2Fg%2F11rtss6140?entry=ttu&g_ep=EgoyMDI1MDQwNi4wIKXMDSoASAFQAw%3D%3D">
+                <Image
+                  alt="ubicacion"
+                  src={ubi}
+                  class="h-8 w-auto object-contain"
+                />
+              </a>
+              <a href="https://instagram.com/hackerspacecs/">
+                <Image
+                  alt="instagram"
+                  src={ig}
+                  class="h-8 w-auto object-contain"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Asociaciones -->
+        <div class="mt-4">
+          <h2 class="text-lg font-bold">{SITE_CONTENT[locale].FOOTER_TITLE}</h2>
+          <div class="flex flex-wrap justify-center space-y-4 md:space-x-7 mt-2">
+            <a href="https://www.ujimotorsport.uji.es/">
+              <Image
+                  alt="ujimotor"
+                  src={ujimotor}
+                  class="h-20 w-auto object-contain mx-4 md:mx-10"
+                />            </a>
+            <a href="http://www.laplantilla.uji.es/">
+              <Image
+                  alt="laplantilla"
+                  src={laplantilla}
+                  class="h-20 w-auto object-contain mx-4 md:mx-10"
+                />                </a>
+            <a href="https://www.motostudent.uji.es/">
+              <Image
+                  alt="motostudent"
+                  src={motostudent}
+                  class="h-20 w-auto object-contain mx-4 md:mx-10"
+                />            </a>
+            <a href="https://www.instagram.com/otakuonda?igsh=MXk3aHZibGo2OGU=">
+              <Image
+                  alt="otakuonda"
+                  src={otakuonda}
+                  class="h-20 w-auto object-contain mx-4 md:mx-10"
+                />            </a>
+            <a href="https://www.uji.es/perfils/estudiantat/v2/dise/asso/formadesperestudiants/simulacion/">
+              <Image
+                  alt="clubjocs"
+                  src={clubjocs}
+                  class="h-20 w-auto object-contain mx-4 md:mx-10"
+                />            </a>
+            <a href="https://www.voluta.coop">
+              <Image
+                  alt="voluta"
+                  src={voluta}
+                  class="h-20 w-auto object-contain mx-4 md:mx-10"
+                />            </a>
+            <a href="https://www.ifixit.com">
+              <Image
+                  alt="ifixit"
+                  src={ifixit}
+                  class="h-20 w-auto object-contain mx-4 md:mx-10"
+                />             </a>
+          </div>
+        </div>
+        <div class="mt-4 text-sm" set:html={SITE_CONTENT[locale].COOKIES}>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+

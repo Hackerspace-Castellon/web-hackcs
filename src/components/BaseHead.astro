@@ -1,6 +1,7 @@
 ---
 import { ClientRouter } from "astro:transitions";
 import "@/styles/global.css";
+import { SITE_CONTENT } from "@/consts";
 
 interface Props {
   title: string;
@@ -8,21 +9,30 @@ interface Props {
   image?: string;
 }
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+// Detectar el idioma de la URL
+const locale: 'es' | 'en' | 'ca' = Astro.url.pathname.split("/")[1] as 'es' | 'en' | 'ca';
 
+// Obtener el contenido en el idioma seleccionado
+const content = SITE_CONTENT[locale] || SITE_CONTENT.es; // Usamos 'es' como valor por defecto
+
+// Obtener los valores del contenido en el idioma correspondiente
+const { TITLE, DESCRIPTION, QUOTE, NAV_LINKS } = content;
+
+// Valores por defecto para 'title', 'description' y 'image' si no se pasan como props
 const {
-  title = SITE_TITLE,
-  description = ABOUT_ME,
+  title = TITLE,
+  description = DESCRIPTION,
   image = "/image.jpg",
 } = Astro.props;
-import HeroImage from "@/hero.png";
-import { ABOUT_ME, SITE_TITLE } from "@/consts";
+
+// Canonical URL
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="icon" type="image/svg+xml" href="https://emoji-route.deno.dev/svg/👩‍💻" />
+<link rel="icon" href="/HackCS_Logo.png" type="image/png" />
 <meta name="generator" content={Astro.generator} />
 <link rel="sitemap" href="/sitemap-index.xml" />
 

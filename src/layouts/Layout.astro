@@ -3,19 +3,39 @@ import type { CollectionEntry } from "astro:content";
 import BaseHead from "@/components/BaseHead.astro";
 import Navbar from "@/components/Navbar.astro";
 import Footer from "@/components/Footer.astro";
-import { SITE_DESCRIPTION, SITE_TITLE } from "@/consts";
+import { SITE_CONTENT } from "@/consts";
 
-const { title = SITE_TITLE, description = SITE_DESCRIPTION } = Astro.props;
+import '../styles/global.css';
+
+// Detectar el idioma de la URL
+const locale: 'es' | 'en' | 'ca' = Astro.url.pathname.split("/")[1] as 'es' | 'en' | 'ca';
+
+// Obtener el contenido en el idioma seleccionado
+const content = SITE_CONTENT[locale] || SITE_CONTENT.es; // Usamos 'es' como valor por defecto
+
+// Obtener los valores del contenido en el idioma correspondiente
+const { TITLE, DESCRIPTION } = content;
+
+// Valores por defecto para 'title' y 'description' si no se pasan como props
+const { title = TITLE, description = DESCRIPTION } = Astro.props;
+
+import CookieBanner from '../components/CookieBanner.astro';
 ---
 
-<html lang="en" class="!overflow-x-hidden">
+<html lang={locale} class="!overflow-x-hidden">
   <head>
     <BaseHead title={title} description={description} />
-    <script is:inline src="https://cdn.jsdelivr.net/gh/ArnavK-09/add-github-badge@main/dist/main.js"></script>
-    <script is:inline>addGithubBadge("ArnavK-09");</script>
+    <link rel="icon" type="image/png" href="/HackCS_Logo.png" />
   </head>
+  
+  <script>
+    import "../scripts/detect-locale.js";
+  </script>
 
   <body class="bg-black text-white tracking-wide !overflow-x-hidden">
+    <div class="fixed bottom-0 w-screen z-[9999]">
+      <CookieBanner />
+    </div>
     <header class="fixed top-0 w-screen z-[9999]"><Navbar /></header>
     <main class="pt-28 md:pt-20"><slot /></main>
     <footer class="w-screen bottom-0 overflow-x-hidden"><Footer /></footer>

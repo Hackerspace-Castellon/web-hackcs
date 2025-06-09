@@ -1,18 +1,42 @@
 import { glob } from "astro/loaders";
 import { defineCollection, z } from "astro:content";
 
-const agenda = defineCollection({
-  // Load Markdown and MDX files in the `src/content/agenda/` directory.
-  loader: glob({ base: "./src/content/agenda", pattern: "**/*.{md,mdx}" }),
-  // Type-check frontmatter using a schema
-  schema: z.object({
-    title: z.string(),
-    description: z.string(),
-    // Transform string to Date object
-    pubDate: z.coerce.date(),
-    updatedDate: z.coerce.date().optional(),
-    heroImage: z.string().optional(),
-  }),
+const schema = z.object({
+  title: z.string(),
+  description: z.string(),
+  pubDate: z.coerce.date(),
+  updatedDate: z.coerce.date().optional(),
+  heroImage: z.string().optional(),
 });
 
-export const collections = { agenda };
+const agendaES = defineCollection({
+  loader: glob({ base: "./src/content/es", pattern: "agenda/**/*.{md,mdx}" }),
+  schema,
+});
+
+const agendaEN = defineCollection({
+  loader: glob({ base: "./src/content/en", pattern: "agenda/**/*.{md,mdx}" }),
+  schema,
+});
+
+const agendaVA = defineCollection({
+  loader: glob({ base: "./src/content/ca", pattern: "agenda/**/*.{md,mdx}" }),
+  schema,
+});
+
+const recursosES = defineCollection({
+  loader: glob({ base: "./src/content/es", pattern: "recursos/**/*.{md,mdx}" }),
+  schema,
+});
+
+const recursosEN = defineCollection({
+  loader: glob({ base: "./src/content/en", pattern: "recursos/**/*.{md,mdx}" }),
+  schema,
+});
+
+const recursosVA = defineCollection({
+  loader: glob({ base: "./src/content/ca", pattern: "recursos/**/*.{md,mdx}" }),
+  schema,
+});
+
+export const collections = { agendaES, agendaEN, agendaVA, recursosES, recursosEN, recursosVA };

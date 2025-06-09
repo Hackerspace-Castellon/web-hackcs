@@ -1,0 +1,102 @@
+---
+import { getLocalePaths, LOCALES } from "@/i18n";
+---
+
+<label class="select-wrapper">
+  <select data-languageSelect onchange="handleLanguageChange(event)">
+    {
+      getLocalePaths(Astro.url).map(({ path, lang }) => (
+        <option
+          label={LOCALES[lang].label}
+          value={path}
+          data-lang={lang}
+          selected={lang === Astro.currentLocale}
+          dir={LOCALES[lang].dir || null}
+        />
+      ))
+    }
+  </select>
+</label>
+
+<script is:inline>
+  function handleLanguageChange(event) {
+    const selectedLang = event.target.selectedOptions[0].dataset.lang;
+    localStorage.selectedLang = selectedLang;
+    const selectedValue = event.target.value;
+    window.location.href = selectedValue;
+  }
+</script>
+
+<style>
+ /* Estilos generales para el select */
+ .select-wrapper {
+  position: relative;
+  display: inline-block;
+} 
+
+
+select {
+  cursor: pointer;
+  appearance: none;
+  font-family: "VCR";
+  color: black;
+  background-color: white;
+  padding-right: 10px; /* Espacio para la flecha */
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* Flecha blanca */
+.select-wrapper::after {
+  content: "▼"; /* Flecha */
+  position: absolute;
+  top: 50%;
+  right: 2px;
+  transform: translateY(-50%);
+  transition: transform 0.2s ease;
+  pointer-events: none;
+  color: black; /* Flecha negra */
+  font-size: 14px;
+}
+
+/* Estilos para dispositivos móviles (max-width: 768px) */
+@media (max-width: 768px) {
+  .select-wrapper {
+    width: 110%; /* Hacer el select más grande en móviles */
+  }
+
+  select {
+    width: 100%; /* Hacer el select ocupar todo el ancho disponible */
+    height: 35px; /* Reducir la altura del select en móviles */
+    padding-inline: 15px; /* Reducir el padding horizontal */
+    font-size: 14px; /* Reducir el tamaño de la fuente */
+  }
+
+  /* Ajustar el tamaño de la flecha en móviles */
+  .select-wrapper::after {
+    font-size: 12px; /* Reducir el tamaño de la flecha */
+    right: 10px; /* Asegurar que la flecha no se solape */
+  }
+}
+
+/* Estilos para pantallas más grandes (min-width: 769px) */
+@media (min-width: 769px) {
+  .select-wrapper {
+    width: 135px; /* Ancho predeterminado */
+  }
+
+  select {
+    width: 120%; /* Mantener el tamaño más grande por defecto */
+    height: 40px; /* Altura normal */
+    padding-inline: 30px; /* Padding normal */
+    font-size: 16px; /* Fuente más grande en pantallas grandes */
+  }
+
+  .select-wrapper::after {
+    font-size: 14px; /* Tamaño normal de la flecha */
+    right: 2px; /* Posición normal de la flecha */
+  }
+}
+
+</style>

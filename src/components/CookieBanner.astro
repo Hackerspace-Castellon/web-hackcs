@@ -1,0 +1,108 @@
+---
+import { SITE_CONTENT } from "../consts";
+
+// Obtener el idioma de la URL
+const locale = Astro.url.pathname.split("/")[1] as 'es' | 'en' | 'ca';
+const content = SITE_CONTENT[locale].COOKIES_BANNER;
+---
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 bg-black text-white p-8 z-50 text-lg shadow-md hidden font-vc flex items-center justify-center w-full">
+  <div class="max-w-5xl mx-auto flex flex-col items-center gap-6 text-center w-full">
+    <!-- Mensaje de cookies -->
+    <div class="mt-4 text-lg" set:html={content.message}></div>
+    
+    <!-- Contenedor de botones -->
+    <div class="flex gap-6 justify-center items-center">
+      <button id="accept-cookies" class="bg-green-500 hover:bg-green-600 px-6 py-3 rounded-lg transition-all duration-300 text-white font-bold text-lg">
+        {content.accept}
+      </button>
+      <button id="reject-cookies" class="bg-red-500 hover:bg-red-600 px-6 py-3 rounded-lg transition-all duration-300 text-white font-bold text-lg">
+        {content.reject}
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const banner = document.getElementById('cookie-banner');
+    const acceptBtn = document.getElementById('accept-cookies');
+    const rejectBtn = document.getElementById('reject-cookies');
+
+    // Verificar si ya se ha tomado una decisión sobre las cookies
+    const cookieConsent = sessionStorage.getItem('cookieConsent');
+    
+    if (!cookieConsent && banner) {
+      banner.classList.remove('hidden'); // Mostrar el banner
+    } else {
+      // Si el usuario ya ha tomado una decisión, proceder según la elección
+      if (cookieConsent === 'accepted') {
+        enableOptionalCookies(); // Activar cookies opcionales si las aceptó
+      }
+    }
+
+    // Función para manejar la aceptación de cookies
+    if (acceptBtn) {
+      acceptBtn.addEventListener('click', () => {
+        sessionStorage.setItem('cookieConsent', 'accepted');
+        enableOptionalCookies(); // Activar cookies opcionales
+        if (banner) {
+          banner.classList.add('hidden'); // Ocultar el banner
+        }
+      });
+    }
+
+    // Función para manejar el rechazo de cookies
+    if (rejectBtn) {
+      rejectBtn.addEventListener('click', () => {
+        sessionStorage.setItem('cookieConsent', 'rejected');
+        disableOptionalCookies(); // Desactivar cookies opcionales
+        if (banner) {
+          banner.classList.add('hidden'); // Ocultar el banner
+        }
+      });
+    }
+  });
+
+  // Función para habilitar cookies opcionales (como las de Google Analytics o publicidad)
+  function enableOptionalCookies() {
+    // Aquí cargas las cookies opcionales que dependen de consentimiento
+    // loadGoogleAnalytics();   // Cargar Google Analytics
+    // Agregar otras funciones para cargar cookies opcionales aquí
+
+  }
+
+  // Función para deshabilitar cookies opcionales (si el usuario las rechaza)
+  function disableOptionalCookies() {
+    // Aquí puedes asegurarte de que no se carguen las cookies opcionales
+    // Por ejemplo, podrías eliminar los scripts de Google Analytics si fueron rechazados
+    // removeGoogleAnalytics();  // Eliminar Google Analytics
+    // Agregar otras funciones para deshabilitar cookies opcionales aquí
+  }
+
+  /*
+  // Ejemplo de cómo cargar Google Analytics (solo si el usuario acepta)
+  function loadGoogleAnalytics() {
+    const script = document.createElement('script');
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=UA-XXXXXX-X'; // Inserta tu ID de GA
+    script.async = true;
+    document.head.appendChild(script);
+
+    script.onload = () => {
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () {
+        dataLayer.push(arguments);
+      };
+      gtag('js', new Date());
+      gtag('config', 'UA-XXXXXX-X'); // Inserta tu ID de GA
+    };
+  }*/
+
+
+   /*
+   // Ejemplo de cómo eliminar Google Analytics (si el usuario lo rechaza)
+  function removeGoogleAnalytics() {
+    const scripts = document.querySelectorAll('script[src*="googletagmanager"]');
+    scripts.forEach(script => script.remove());
+  }
+    */
+</script>

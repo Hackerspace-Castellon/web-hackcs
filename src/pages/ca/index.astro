@@ -1,0 +1,64 @@
+---
+import { getCollection } from "astro:content";
+import Hero from "@/components/Hero.astro";
+import Breadcrumb from "@/components/Breadcrumb.astro";
+import Section from "@/components/Section.astro";
+import PostCardES from "@/components/PostCardES.astro";
+import Layout from "@/layouts/Layout.astro";
+import { SITE_CONTENT } from "@/consts";
+
+// Detectar el idioma de la URL
+const locale: 'es' | 'en' | 'ca' = Astro.url.pathname.split("/")[1] as 'es' | 'en' | 'ca';
+
+// Obtener el contenido en el idioma seleccionado
+const content = SITE_CONTENT[locale] || SITE_CONTENT.es; // Usamos 'es' como valor por defecto
+
+// Obtener el título y la descripción de "Agenda" y "About Us" en el idioma correspondiente
+const { TITLE } = content;
+
+const posts = (await getCollection("agendaVA")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+)
+.slice(0, 4);
+
+
+---
+
+<Layout id="title" title={TITLE}>
+  <Hero />
+  <Section title="Sobre nosaltres" link="/ca">
+    <div class="w-full grid place-items-center">
+      <div
+        class="max-w-4xl text-xl md:text-lg opacity-90 text-center justify-evenly"
+      >
+        <p>
+        Hackerspace Castelló és l’associació per als amants de la informàtica, l’electrònica, els videojocs i el coneixement lliure. Actualment realitzem projectes relacionats amb electrònica, robòtica, impressió 3D i drons, entre altres. 
+
+        En el nostre local, situat a la Universitat Jaume I, comptes amb l’espai, material i eines necessàries per a iniciar els teus projectes.
+
+        Contacta amb nosaltres i visita’ns!
+
+        </p>  
+      </div>
+    </div>
+  </Section>
+  
+  <Section
+    title="Agenda"
+    className={"bg-gradient-to-b from-black/70 from-[5%] to-black via-black"}
+    link="agenda"
+  >
+    <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-4">
+      {
+        posts.map((post) => (
+          <PostCardES
+            slug={post.id}
+            title={post.data.title}
+            excerpt={post.data.description}
+            date={post.data.pubDate}
+          />
+        ))
+      }
+    </div>
+  </Section>
+</Layout>

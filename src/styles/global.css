@@ -48,3 +48,132 @@ img,
   font-size: 3rem;
   user-select: none;
 }
+
+details {
+  position: relative;
+  margin-bottom: 1rem;
+  text-align: left; 
+  width: 100%;
+  display: block;
+  padding: 0; 
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  text-align: left; 
+  width: 100%;
+  display: block;
+  padding: 0;
+  margin: 0;  
+}
+
+details[open] summary::after {
+  content: "▲";
+  float: left;
+  margin-right: 10px;
+}
+
+details summary::after {
+  content: "▼";
+  float: left;
+  margin-right: 10px;
+}
+
+details > * {
+  margin-left: 0;
+  width: 100%;
+  display: block;
+}
+
+details > summary {
+  margin-left: 0;
+  width: 100%;
+  display: block;
+}
+
+details > div {
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  nav {
+    position: relative; /* Cambiar la posición para que no sea fija */
+    width: 50%; /* Asegurarse de que ocupe todo el ancho */
+    padding: 0rem; /* Reducir el espaciado */
+    font-size: 10px; /* Reducir el tamaño de la fuente */
+  }
+
+  /* Opcional: Estilo para los enlaces del navbar */
+  nav a {
+    font-size: 10px; /* Hacer los enlaces más pequeños */
+    padding: 0rem; /* Reducir el padding de los enlaces */
+  }
+}
+
+/* En dispositivos más grandes, el navbar será fijo */
+@media (min-width: 769px) {
+  nav {
+    position: fixed; /* Navbar fijo en el escritorio */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Para asegurarnos de que esté sobre otros elementos */
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente */
+  }
+}
+
+/* Estilos generales para TITLE y QUOTE */
+#title, #quote {
+  font-size: 2rem; /* Tamaño por defecto del título y cita */
+  line-height: 1.4;
+  text-align: center; /* Centrado por defecto */
+  padding: 10px 20px;
+}
+
+/* Media Query para pantallas móviles */
+@media (max-width: 768px) {
+  #title {
+    font-size: 1.5rem; /* Reducir tamaño en móviles */
+    padding: 5px 10px; /* Ajustar padding */
+  }
+
+  #quote {
+    font-size: 1rem; /* Reducir el tamaño de la cita */
+    line-height: 1.3; /* Ajustar la altura de la línea */
+    padding: 5px 10px; /* Ajustar padding */
+  }
+}
+
+/* Media Query para pantallas grandes */
+@media (min-width: 769px) {
+  #title {
+    font-size: 2.5rem; /* Tamaño mayor en pantallas grandes */
+  }
+
+  #quote {
+    font-size: 1.25rem; /* Tamaño de cita ajustado en pantallas grandes */
+  }
+}
+/* Estilo global para los enlaces dentro de Markdown */
+a {
+  color: #00ff00; /* Verde brillante por defecto */
+  text-decoration: none; /* Sin subrayado */
+  transition: color 0.3s ease; /* Transición suave */
+}
+
+a:hover {
+  color: hsl(120, 92%, 29%); /* Verde oscuro al pasar el cursor */
+  text-decoration: underline; /* Subrayado en hover */
+}
+
+/* Aplicar el color a los enlaces dentro de la clase .prose */
+.prose a {
+  color: #00ff00 !important;
+}
+
+/* Asegurarse de que :hover también funcione */
+.prose a:hover {
+  color: hsl(120, 92%, 29%) !important;
+  text-decoration: underline !important;
+}

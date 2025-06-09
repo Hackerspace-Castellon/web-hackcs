@@ -1,0 +1,351 @@
+/* Tema HackCS para Obsidian - Versión mejorada */
+/* Basado en hackcs.uji.es */
+
+/* Importar fuente VCR */
+@font-face {
+  font-family: "VCRosdNEUE";
+  src: local("VCRosdNEUE");
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Variables principales del tema */
+.theme-dark {
+  /* Colores de fondo - Suavizados */
+  --background-primary: #0a0a0a;
+  --background-secondary: #151515;
+  --background-secondary-alt: #1e1e1e;
+  --background-modifier-border: #404040;
+  --background-modifier-form-field: #1a1a1a;
+  --background-modifier-form-field-highlighted: #252525;
+  --background-modifier-box-shadow: rgba(0, 0, 0, 0.7);
+  --background-modifier-success: #00ff00;
+  --background-modifier-error: #ff4444;
+  
+  /* Colores de texto */
+  --text-normal: #ffffff;
+  --text-muted: #cccccc;
+  --text-faint: #aaaaaa;
+  --text-accent: #00ff00;
+  --text-accent-hover: #00cc00;
+  --text-on-accent: #000000;
+  
+  /* Enlaces */
+  --text-link: #00ff00;
+  --text-link-hover: #00cc00;
+  --text-link-decoration: none;
+  --text-link-decoration-hover: underline;
+  
+  /* Selección mejorada */
+  --text-selection: #000000;
+  --text-selection-bg: #00ff00;
+  
+  /* Variables específicas de Obsidian para selección */
+  --text-highlight-bg: #333300;
+  --text-highlight-bg-active: #00ff00;
+  
+  /* Tipografía */
+  --font-interface-theme: "JetBrains Mono Semi", monospace;
+  --font-text-theme: "VCRosdNEUE", monospace;
+  --font-monospace-theme: "Cascadia Mono", monospace;
+  
+  /* Tamaños */
+  --font-size-normal: 14px;
+  --line-height-normal: 1.4;
+  
+  /* Bordes */
+  --border-width: 1px;
+  --border-color: #404040;
+  
+  /* Scrollbar */
+  --scrollbar-width: 8px;
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb-bg: #404040;
+  --scrollbar-thumb-bg-hover: #606060;
+}
+
+/* Aplicar fuente VCR globalmente */
+body {
+  font-family: "VCRosdNEUE", monospace !important;
+}
+
+/* Selección de texto mejorada - Múltiples selectores */
+::selection {
+  background: #00ff00 !important;
+  color: #000000 !important;
+}
+
+::-moz-selection {
+  background: #00ff00 !important;
+  color: #000000 !important;
+}
+
+/* Selección específica para el editor de Obsidian */
+.cm-editor .cm-selectionBackground {
+  background: #00ff00 !important;
+}
+
+.cm-focused .cm-selectionBackground {
+  background: #00ff00 !important;
+}
+
+/* Selección en modo lectura */
+.markdown-preview-view ::selection {
+  background: #00ff00 !important;
+  color: #000000 !important;
+}
+
+/* Selección en modo source y live preview */
+.markdown-source-view ::selection,
+.markdown-source-view ::-moz-selection {
+  background: #00ff00 !important;
+  color: #000000 !important;
+}
+
+/* Línea activa en el editor */
+.cm-active {
+  background: rgba(0, 255, 0, 0.1) !important;
+}
+
+/* Cursor */
+.cm-cursor {
+  border-left: 2px solid #00ff00 !important;
+}
+
+/* Estilo de scrollbar personalizado */
+::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb-bg);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-bg-hover);
+}
+
+/* Enlaces */
+a {
+  color: var(--text-link) !important;
+  text-decoration: var(--text-link-decoration);
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--text-link-hover) !important;
+  text-decoration: var(--text-link-decoration-hover);
+}
+
+/* Enlaces internos de Obsidian */
+.cm-link,
+.internal-link {
+  color: var(--text-link) !important;
+}
+
+.cm-link:hover,
+.internal-link:hover {
+  color: var(--text-link-hover) !important;
+  text-decoration: underline;
+}
+
+/* Títulos con mejor contraste */
+.markdown-preview-view h1,
+.cm-header-1 {
+  font-size: 2.5rem;
+  line-height: 1.4;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.markdown-preview-view h2,
+.cm-header-2 {
+  font-size: 2rem;
+  line-height: 1.4;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.markdown-preview-view h3,
+.cm-header-3 {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Resaltado de texto (highlighting) */
+.cm-highlight {
+  background: rgba(0, 255, 0, 0.3) !important;
+  color: #ffffff !important;
+}
+
+mark {
+  background: rgba(0, 255, 0, 0.3) !important;
+  color: #ffffff !important;
+}
+
+/* Búsqueda activa */
+.cm-searchMatch {
+  background: rgba(0, 255, 0, 0.5) !important;
+  color: #000000 !important;
+}
+
+.cm-searchMatch-selected {
+  background: #00ff00 !important;
+  color: #000000 !important;
+}
+
+/* Código */
+.markdown-preview-view code,
+.cm-inline-code {
+  font-family: "VCRosdNEUE", monospace !important;
+  font-weight: 100;
+  background: var(--background-secondary);
+  color: #00ff00;
+  padding: 2px 4px;
+  border-radius: 3px;
+  border: 1px solid var(--border-color);
+}
+
+.markdown-preview-view pre,
+.cm-editor .cm-content {
+  font-family: "VCRosdNEUE", monospace !important;
+  font-weight: 100;
+}
+
+/* Bloques de código */
+.markdown-preview-view pre {
+  background: var(--background-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 15px;
+  color: #ffffff;
+}
+
+/* Editor de Obsidian */
+.cm-editor {
+  font-family: "VCRosdNEUE", monospace !important;
+}
+
+/* Sidebar con mejor contraste */
+.workspace-leaf-content[data-type="file-explorer"] {
+  background: var(--background-secondary);
+}
+
+.nav-file-title,
+.nav-folder-title {
+  font-family: "VCRosdNEUE", monospace !important;
+}
+
+.nav-file-title:hover,
+.nav-folder-title:hover {
+  background: rgba(0, 255, 0, 0.1);
+}
+
+/* Tabs */
+.workspace-tab-header {
+  background: var(--background-secondary);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.workspace-tab-header-inner-title {
+  font-family: "VCRosdNEUE", monospace !important;
+}
+
+.workspace-tab-header.is-active {
+  background: rgba(0, 255, 0, 0.1);
+}
+
+/* Botones */
+.mod-cta,
+.mod-warning {
+  background: var(--text-accent);
+  color: var(--text-on-accent);
+  border: none;
+  font-family: "VCRosdNEUE", monospace !important;
+}
+
+.mod-cta:hover,
+.mod-warning:hover {
+  background: var(--text-accent-hover);
+}
+
+/* Búsqueda */
+.search-input {
+  background: var(--background-secondary);
+  border: 1px solid var(--border-color);
+  color: var(--text-normal);
+  font-family: "VCRosdNEUE", monospace !important;
+}
+
+.search-input:focus {
+  border-color: #00ff00;
+  box-shadow: 0 0 5px rgba(0, 255, 0, 0.3);
+}
+
+/* Resaltado de búsqueda */
+.search-result-file-match {
+  background: var(--text-accent);
+  color: var(--text-on-accent);
+}
+
+/* Panel de configuración */
+.modal-container {
+  background: var(--background-primary);
+  border: 1px solid var(--border-color);
+}
+
+.setting-item {
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* Detalles/Summary */
+details {
+  margin-bottom: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 10px;
+  background: var(--background-secondary);
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px 0;
+  position: relative;
+}
+
+summary::before {
+  content: "▼";
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+  color: #00ff00;
+}
+
+details[open] summary::before {
+  content: "▲";
+}
+
+/* Modo responsive para móviles */
+@media (max-width: 768px) {
+  .markdown-preview-view h1,
+  .cm-header-1 {
+    font-size: 1.5rem;
+  }
+  
+  .markdown-preview-view h2,
+  .cm-header-2 {
+    font-size: 1.25rem;
+  }
+  
+  .markdown-preview-view h3,
+  .cm-header-3 {
+    font-size: 1rem;
+  }
+}

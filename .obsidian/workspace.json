@@ -1,0 +1,216 @@
+{
+  "main": {
+    "id": "ebea18ae4765e285",
+    "type": "split",
+    "children": [
+      {
+        "id": "74fc2b2545edefec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bb90d2591834fd32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/ca/agenda/3d-printer-party-madrid-2025.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3d-printer-party-madrid-2025"
+            }
+          },
+          {
+            "id": "8f2d15bf6d218e00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/es/agenda/3d-printer-party-madrid-2025.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3d-printer-party-madrid-2025"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e8c84d991a871595",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c29511323d15e50",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "87c1072c1deb038e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0dc41c4e7a28a89b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a831784d67e024f3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 525.5
+  },
+  "right": {
+    "id": "a8a2ae4f3497326c",
+    "type": "split",
+    "children": [
+      {
+        "id": "583d9ee9756bfd64",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "90afa1198b994183",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "f23da10ad749df05",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "49abf26cb6f4ada5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "271329bf2c83d6b7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of README"
+            }
+          },
+          {
+            "id": "401032a4b2a4d5ca",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 445.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "copilot:Open Copilot Chat": false
+    }
+  },
+  "active": "bb90d2591834fd32",
+  "lastOpenFiles": [
+    "src/content/ca/agenda/arduino-day-2024.md",
+    "src/content/ca/agenda/arduino-day-2023.md",
+    "src/content/en/agenda/3d-printer-party-madrid-2025.md",
+    "src/content/es/agenda/3d-printer-party-madrid-2025.md",
+    "src/content/ca/agenda/3d-printer-party-madrid-2025.md",
+    "src/content/ca/agenda/images/Banner_principa_BG_2025.jpg",
+    "src/content/en/agenda/images/Banner_principa_BG_2025.jpg",
+    "src/content/es/agenda/images/Banner_principa_BG_2025.jpg",
+    "src/content/en/agenda/3d-printer-party-madrid-2024.md",
+    "src/content/en/agenda/3d-printer-party-madrid-2023.md",
+    "src/content/es/agenda/3d-printer-party-madrid-2024.md",
+    "src/content/en/agenda/3d-printer-party-madrid-2022.md",
+    "src/content/es/agenda/images/BANNER_3d_printerparty_-uai-1440x720-1.jpg",
+    "src/content/es/agenda/3d-printer-party-madrid-2023.md",
+    "src/content/es/agenda/3d-printer-party-madrid-2022.md",
+    "README.md",
+    "src/styles/global.txt",
+    "src/styles/global - Copy.css",
+    "src/hero.svg"
+  ]
+}

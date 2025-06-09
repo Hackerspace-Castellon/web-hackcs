@@ -1,7 +1,16 @@
 ---
 import { Image } from "astro:assets";
-import HeroImg from "@/hero.png";
-import { QUOTE, SITE_TITLE } from "@/consts";
+import HeroImg from "@/hero.svg";
+import { SITE_CONTENT } from "@/consts";
+
+// Detectar el idioma de la URL
+const locale: 'es' | 'en' | 'ca' = Astro.url.pathname.split("/")[1] as 'es' | 'en' | 'ca';
+
+// Obtener el contenido en el idioma seleccionado
+const content = SITE_CONTENT[locale] || SITE_CONTENT.es; // Usamos 'es' como valor por defecto
+
+// Obtener los valores del contenido en el idioma correspondiente
+const { TITLE, QUOTE } = content;
 ---
 
 <div class="hero-bg hidden md:block h-screen hero-bg-animate absolute top-0"></div>
@@ -11,18 +20,18 @@ import { QUOTE, SITE_TITLE } from "@/consts";
 >
   <div class="grid place-items-center">
     <div class="text-center -mt-10">
-      <h1 class="font-bold text-7xl">{`<${SITE_TITLE} />`}</h1>
-      <h2 class="text-2xl opacity-95">
+      <h1 id="title" class="font-bold text-5xl">{`<${TITLE} />`}</h1>
+      <h2 id="quote" class="text-2xl opacity-95">
         {QUOTE}
       </h2>
     </div>
   </div>
   <div>
-    <Image
-      alt="Hero"
-      src={HeroImg}
-      class="brightness-200 w-full scale-90 invert"
-    />
+    <img
+    src={HeroImg.src}
+    alt="Hero"
+    class="brightness-200 w-full scale-90 invert"
+  />
   </div>
 </section>
 

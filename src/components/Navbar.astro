@@ -1,23 +1,33 @@
 ---
-import { SITE_TITLE, NAV_LINKS as links } from "@/consts";
+import { SITE_CONTENT } from "@/consts";
+import LocaleSelect from "@/components/i18n/LocaleSelect.astro";
+
+// Detectar el idioma de la URL
+const locale: 'es' | 'en' | 'ca' = Astro.url.pathname.split("/")[1] as 'es' | 'en' | 'ca';
+
+// Obtener el contenido en el idioma seleccionado
+const content = SITE_CONTENT[locale] || SITE_CONTENT.es; // Usamos 'es' como valor por defecto
+
+// Obtener los valores del contenido en el idioma correspondiente
+const { TITLE, NAV_LINKS } = content;
 ---
 
 <nav class="w-full !z-[9999] py-5 px-4 bg-black/90 backdrop-blur-sm">
   <div
     class="w-full grid gap-4 md:px-5 place-items-center grid-cols-1 md:flex md:justify-between md:px-4"
   >
-    <a href="/">
+    <a href={`/${locale}`}>
       <div
         id="logo"
         class="pt-2 pb-1 !grid !place-items-center select-none leading-none hover:bg-black bg-white scale-110 hover:text-white text-black px-4 transition-all ease-in-out"
       >
-        {SITE_TITLE}
+      {TITLE}
       </div>
     </a>
     <div class="flex flex-wrap gap-4 md:pr-5">
       <div class="hidden md:block">/</div>
       {
-        links.map((link) => {
+        NAV_LINKS.map((link) => {
           const href =
             link.href ?? link.title.toLowerCase().replaceAll(" ", "-");
           const pathname = Astro.url.pathname.replace(
@@ -31,7 +41,7 @@ import { SITE_TITLE, NAV_LINKS as links } from "@/consts";
             <>
               <a
                 class:list={[{ "bg-white text-black": isActive }]}
-                class="hover:bg-white hover:text-black transition-all ease-in-out px-2 max-w-fit"
+                class="hover:bg-white hover:text-black transition-all ease-in-out px-2 max-w-fit text-white"
                 href={`/${href}`}
               >
                 <div>{link.title}</div>
@@ -41,6 +51,10 @@ import { SITE_TITLE, NAV_LINKS as links } from "@/consts";
           );
         })
       }
+    </div>
+    <div
+      id="idioma"    >
+      <LocaleSelect />
     </div>
   </div>
 </nav>
