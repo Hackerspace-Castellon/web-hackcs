@@ -12,6 +12,7 @@ import otakuonda from "@/images/otakuonda.png";
 import clubjocs from "@/images/clubjocs.png";
 import voluta from "@/images/voluta.png";
 import ifixit from "@/images/ifixit.png";
+import nordvpn from "@/images/nordvpn.png";
 import { Image } from "astro:assets";
 
 import { SITE_CONTENT } from "@/consts";
@@ -125,6 +126,12 @@ const locale: 'es' | 'en' | 'ca' = Astro.url.pathname.split("/")[1] as 'es' | 'e
               <Image
                   alt="ifixit"
                   src={ifixit}
+                  class="h-20 w-auto object-contain mx-4 md:mx-10"
+                />             </a>
+            <a href="https://www.nordvpn.com">
+              <Image
+                  alt="nordvpn"
+                  src={nordvpn}
                   class="h-20 w-auto object-contain mx-4 md:mx-10"
                 />             </a>
           </div>
