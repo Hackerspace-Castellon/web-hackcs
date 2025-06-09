@@ -11,32 +11,32 @@ const schema = z.object({
 });
 
 const agendaES = defineCollection({
-  loader: glob({ base: "./src/content/es", pattern: "agenda/**/*.{md,mdx}" }),
+  loader: glob({ base: "./src/content/es", pattern: "/**/*.{md,mdx}" }),
   schema,
 });
 
 const agendaEN = defineCollection({
-  loader: glob({ base: "./src/content/en", pattern: "agenda/**/*.{md,mdx}" }),
+  loader: glob({ base: "./src/content/en", pattern: "/**/*.{md,mdx}" }),
   schema,
 });
 
 const agendaVA = defineCollection({
-  loader: glob({ base: "./src/content/ca", pattern: "agenda/**/*.{md,mdx}" }),
+  loader: glob({ base: "./src/content/ca", pattern: "/**/*.{md,mdx}" }),
   schema,
 });
 
 const recursosES = defineCollection({
-  loader: glob({ base: "./src/content/es", pattern: "recursos/**/*.{md,mdx}" }),
+  loader: glob({ base: "./src/content/es", pattern: "/**/*.{md,mdx}" }),
   schema,
 });
 
 const recursosEN = defineCollection({
-  loader: glob({ base: "./src/content/en", pattern: "recursos/**/*.{md,mdx}" }),
+  loader: glob({ base: "./src/content/en", pattern: "/**/*.{md,mdx}" }),
   schema,
 });
 
 const recursosVA = defineCollection({
-  loader: glob({ base: "./src/content/ca", pattern: "recursos/**/*.{md,mdx}" }),
+  loader: glob({ base: "./src/content/ca", pattern: "/**/*.{md,mdx}" }),
   schema,
 });
 
