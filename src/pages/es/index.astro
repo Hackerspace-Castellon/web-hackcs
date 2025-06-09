@@ -16,12 +16,25 @@ const content = SITE_CONTENT[locale] || SITE_CONTENT.es; // Usamos 'es' como val
 // Obtener el título y la descripción de "Agenda" y "About Us" en el idioma correspondiente
 const { TITLE } = content;
 
-const posts = (await getCollection("agendaES")).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-)
-.slice(0, 4);
+const agendaPosts = await getCollection("agendaES");
+const recursosConAgenda = (await getCollection("recursosES"))
+  .filter(post => post.data.categories.includes("agenda"));
 
+// Marcar collection de origen
+const agendaPostsWithSource = agendaPosts.map(post => ({
+  ...post,
+  sourceCollection: 'agenda' as 'agenda'
+}));
 
+const recursosPostsWithSource = recursosConAgenda.map(post => ({
+  ...post,
+  sourceCollection: 'recursos' as 'recursos'
+}));
+
+// Combinar, ordenar y limitar a 4 posts más recientes
+const posts = [...agendaPostsWithSource, ...recursosPostsWithSource]
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 4);
 ---
 
 <Layout id="title" title={TITLE}>
@@ -57,6 +70,7 @@ const posts = (await getCollection("agendaES")).sort(
             title={post.data.title}
             excerpt={post.data.description}
             date={post.data.pubDate}
+            sourceCollection={post.sourceCollection}
           />
         ))
       }
