@@ -1,23 +1,25 @@
 ---
 import { getCollection } from "astro:content";
-import PostCardES from "@/components/PostCardCA.astro";
+import PostCardCA from "@/components/PostCardCA.astro";
 import Section from "@/components/Section.astro";
 import Layout from "@/layouts/Layout.astro";
 
-const posts = (await getCollection("agendaCA")).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-);
+const agendaPosts = await getCollection("agendaCA");
+const recursosConAgenda = (await getCollection("recursosCA"))
+  .filter(post => post.data.categories.includes("agenda"));
 
-
+// Combinar ambas fuentes y ordenar por fecha
+const allPosts = [...agendaPosts, ...recursosConAgenda]
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
 <Layout title="Agenda">
   <Section title="Agenda">
     <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-4">
       {
-        posts.map((post) => (
-          <PostCardES
-            slug={post.id}
+        allPosts.map((post) => (
+          <PostCardCA
+            slug={post.slug}
             title={post.data.title}
             excerpt={post.data.description}
             date={post.data.pubDate}
