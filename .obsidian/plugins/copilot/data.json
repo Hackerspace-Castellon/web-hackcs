@@ -23,7 +23,7 @@
   "temperature": 0.1,
   "maxTokens": 4000,
   "contextTurns": 15,
-  "userSystemPrompt": "",
+  "userSystemPrompt": "You are a helpful AI assistant specialized in markdown. You help me editing a markdown webpage. You maintain consistency and accuracy in all your outputs. Return only the requested content. No explanations or additional text.",
   "openAIProxyBaseUrl": "",
   "openAIEmbeddingProxyBaseUrl": "",
   "stream": true,
@@ -300,19 +300,19 @@
   "inlineEditCommands": [
     {
       "name": "Translate to Spanish",
-      "prompt": "Translate {} into Spanish:\n    1. Preserve the meaning and tone\n    2. Maintain appropriate cultural context\n    3. Keep formatting and structure\n    4. Don't translate and don't delete the html and markdown structure, for example a link to a website or an image.\n\nDon't add extra information, such as explainings or introductions, just the result.",
+      "prompt": "Translate to Spanish. Preserve: markdown syntax, YAML structure, URLs, proper nouns for example (Vila-Real, HackCS, UJI), dates. Translate only text content.\nTranslate to Spanish this {}\n",
       "showInContextMenu": true,
       "modelKey": "gemma3-optimized|ollama"
     },
     {
       "name": "Translate to Catalan",
-      "prompt": "Translate {} into Catalan:\n    1. Preserve the meaning and tone\n    2. Maintain appropriate cultural context\n    3. Keep formatting and structure\n    4. Don't translate and don't delete the html and markdown structure, for example a link to a website or an image.\n\nDon't add extra information, such as explainings or introductions, just the result.",
+      "prompt": "Translate to Catalan. Preserve: markdown syntax, YAML structure, URLs, proper nouns for example (Vila-Real, HackCS, UJI), dates. Translate only text content.\nTranslate to Catalan this {}",
       "showInContextMenu": true,
       "modelKey": "gemma3-optimized|ollama"
     },
     {
       "name": "Translate to English",
-      "prompt": "Translate {} into English:\n    1. Preserve the meaning and tone\n    2. Maintain appropriate cultural context\n    3. Keep formatting and structure\n    4. Don't translate and don't delete the html and markdown structure, for example a link to a website or an image.\n\nDon't add extra information, such as explainings or introductions, just the result.",
+      "prompt": "Translate to English. Preserve: markdown syntax, YAML structure, URLs, proper nouns for example (Vila-Real, HackCS, UJI), dates. Translate only text content.\nTranslate to English this {}",
       "showInContextMenu": true,
       "modelKey": "gemma3-optimized|ollama"
     },
@@ -388,5 +388,6 @@
   "enableCustomPromptTemplating": true,
   "includeActiveNoteAsContext": true,
   "allowAdditionalContext": true,
-  "enableWordCompletion": false
+  "enableWordCompletion": false,
+  "enableAutocomplete": true
 }
