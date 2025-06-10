@@ -1,8 +1,7 @@
 ---
 title: XI Jornadas del orgullo friki Vila-Real​
 description: Estaremos en las X Jornadas de Orgullo Geek en Vila-Real los días 31 de Mayo y 1 de Junio de 2025.
-
-pubDate: 2024-05-16
+pubDate: 2025-05-26
 categories:
   - agenda
 ---

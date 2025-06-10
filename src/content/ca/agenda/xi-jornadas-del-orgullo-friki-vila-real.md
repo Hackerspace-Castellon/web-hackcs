@@ -1,7 +1,7 @@
 ---
 title: XI Jornades de l'orgull friqui Vila-Real​
 description: Estarem a les X Jornades de l'orgull friqui a Vila-Real els dies 31 de Maig i 1 de Juny de 2025.
-pubDate: 2024-05-16
+pubDate: 2025-05-26
 categories:
   - agenda
 ---

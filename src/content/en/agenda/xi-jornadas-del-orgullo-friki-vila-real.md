@@ -1,7 +1,7 @@
 ---
 title: XI Vila-Real Geek Pride Days
 description: We will be at the XI Vila-Real Geek Pride Days conference on May 31st and June 1st, 2025.
-pubDate: 2024-05-16
+pubDate: 2025-05-26
 categories:
   - agenda
 ---
