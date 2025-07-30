@@ -29,4 +29,4 @@ Asiste al Summer Tech, un evento con talleres y charlas sobre tecnología y el m
   
 Link para inscribirse (antes del 20 de julio): [https://docs.google.com/forms/d/e/1FAIpQLSfb5iP1xNn3G1thgnAKKIxOocBk-4buWH80AhUkY7dfWnpy0A/viewform](https://docs.google.com/forms/d/e/1FAIpQLSfb5iP1xNn3G1thgnAKKIxOocBk-4buWH80AhUkY7dfWnpy0A/viewform)
 
- ![](SUMERTECH_BANNER.png)
+ ![](images/SUMERTECH_BANNER.png)
