@@ -11,8 +11,8 @@ categories:
 El martes 29 de Julio de 2025 en el pinar se celebrará la SUMMERTECH 2025.
 
 
-> [!WARNING] ATENCIÓN
-> La ubicación del evento ha cambiado debido a las condiciones meteorológicas, contactar con los oragnizadores
+> ¡ATENCIÓN!
+> La ubicación del evento ha cambiado debido a las condiciones meteorológicas, y se ha contactado con todos los invitados, si no recibiste un mensaje por favor ponte en contacto con la organización
 
 #### Información e Inscripción
 
@@ -23,6 +23,8 @@ Lugar: [El Pinar](https://www.google.com/maps?client=ubuntu&hs=G6J&sca_esv=eddef
   
 
 Asiste al Summer Tech, un evento con talleres y charlas sobre tecnología y el mundo open source. Disfruta de un entorno natural único y comida mientras aprendes y te conectas con expertos y entusiastas. Reserva tu lugar y vive esta experiencia única.
+
+El evento está patrocinado por [BLUETTI](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://es.bluettipower.eu/%3Fsrsltid%3DAfmBOoql5f6pGZSlDPstaFGDkUotrQV6M5-Oui8Tt_y8ukrrPLGzkjIl&ved=2ahUKEwjH4cjDh-WOAxVWK_sDHfpPJyIQFnoECA0QAQ&usg=AOvVaw1e-4iRJGFVuTiH2HTzULr0), gracias a sus paneles solares y estaciones de carga portátiles podremos disfrutar de energía *off-grid* durante todo el evento, el evento es una demostración de cómo es posible disfrutar y cuidar del medioambiente al mismo tiempo.
 
 **IMPORTANTE: Es necesario traerse silla propia.**
 
