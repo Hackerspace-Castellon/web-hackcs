@@ -1,16 +1,17 @@
 ---
-title: Dia del Disseny, Creativitat i Tecnologia 2023
-description: El dijous 28 de setembre de 2023 en el hall de l'ESTCE es celebrarà la 5a edició del Dia del Disseny, Creativitat i Tecnologia de l'ESTCE, on podràs participar en les diverses activitats que les associacions de la UJI ofereixen i participar en un sorteig.
-pubDate: 2023-09-04
+title: Dia del Disseny, Creativitat i Tecnologia 2025
+description: El dimecres 24 de setembre de 2025 en el hall de l'ESTCE es celebrarà el Dia del Disseny, Creativitat i Tecnologia de l'ESTCE, on podràs participar en les diverses activitats que les associacions de la UJI ofereixen i participar en un sorteig.
+pubDate: 2025-08-30
 categories:
   - agenda
 ---
 
-### Dia del Disseny, Creativitat i Tecnologia 2023
+### Dia del Disseny, Creativitat i Tecnologia 2025
 
-El dijous 28 de setembre de 2023, al hall de l'[ESTCE](https://www.google.es/maps/place/Escuela+Superior+de+Tecnologia+I+Ciencias+Experimentales,+Avenguda+Avenida+de+Vicente+Sos+Baynat,+12006+Castell%C3%B3n+de+la+Plana,+Castell%C3%B3n/@39.9926864,-0.0678504,19z/data=!3m1!4b1!4m5!3m4!1s0xd5ffe0f98be12e9:0x4e7634c2c3b978b7!8m2!3d39.9926854!4d-0.0673032?shorturl=1) es celebrarà la 6a edició del Dia del Disseny, Creativitat i Tecnologia de l'[ESTCE](https://www.google.es/maps/place/Escuela+Superior+de+Tecnologia+I+Ciencias+Experimentales,+Avenguda+Avenida+de+Vicente+Sos+Baynat,+12006+Castell%C3%B3n+de+la+Plana,+Castell%C3%B3n/@39.9926864,-0.0678504,19z/data=!3m1!4b1!4m5!3m4!1s0xd5ffe0f98be12e9:0x4e7634c2c3b978b7!8m2!3d39.9926854!4d-0.0673032?shorturl=1), on podràs participar en diverses activitats que les associacions de la [UJI](https://www.google.es/maps/place/Universitat+Jaume+I/@39.9902105,-0.0511631,14z/data=!4m6!3m5!1s0xd5ffe0fca9b5147:0x1368bf53b3a7fb3f!8m2!3d39.9943481!4d-0.0702147!16zL20vMDg0dGNk?coh=164777&entry=tt&shorturl=1) ofereixen i participar en un sorteig.
+El dimecres 24 de setembre de 2025, al hall de l'[ESTCE](https://www.google.es/maps/place/Escuela+Superior+de+Tecnologia+I+Ciencias+Experimentales,+Avenguda+Avenida+de+Vicente+Sos+Baynat,+12006+Castell%C3%B3n+de+la+Plana,+Castell%C3%B3n/@39.9926864,-0.0678504,19z/data=!3m1!4b1!4m5!3m4!1s0xd5ffe0f98be12e9:0x4e7634c2c3b978b7!8m2!3d39.9926854!4d-0.0673032?shorturl=1) es celebrarà el Dia del Disseny, Creativitat i Tecnologia de l'[ESTCE](https://www.google.es/maps/place/Escuela+Superior+de+Tecnologia+I+Ciencias+Experimentales,+Avenguda+Avenida+de+Vicente+Sos+Baynat,+12006+Castell%C3%B3n+de+la+Plana,+Castell%C3%B3n/@39.9926864,-0.0678504,19z/data=!3m1!4b1!4m5!3m4!1s0xd5ffe0f98be12e9:0x4e7634c2c3b978b7!8m2!3d39.9926854!4d-0.0673032?shorturl=1), on podràs participar en diverses activitats que les associacions de la [UJI](https://www.google.es/maps/place/Universitat+Jaume+I/@39.9902105,-0.0511631,14z/data=!4m6!3m5!1s0xd5ffe0fca9b5147:0x1368bf53b3a7fb3f!8m2!3d39.9943481!4d-0.0702147!16zL20vMDg0dGNk?coh=164777&entry=tt&shorturl=1) ofereixen i participar en un sorteig.
 
- ![](images/PHOTOCALL-1024x550.png)   
+![](images/DDCT%202025%20-%20BANNER.png)
+
 <details> <summary> Tèrmits i Condicions Legals del Sorteig </summary>
 
 Els Tèrmits i Condicions Especials i aquests Tèrmits i Condicions Generals constitueixen conjuntament els Tèrmits i Condicions de la Promoció (“Tèrmits i Condicions de la Promoció”). En cas de conflicte entre aquests Tèrmits i Condicions Generals i els Tèrmits i Condicions Especials prevaldran els Tèrmits i Condicions Especials.

@@ -1,16 +1,17 @@
 ---
-title: Design, Creativity, and Technology Day 2023
-description: On Thursday, September 28th, 2023, in the ESTCE hall, the 6th edition of the Design, Creativity, and Technology Day of the ESTCE will take place. You can participate in various activities offered by the UJI associations and enter a raffle.
-pubDate: 2023-09-04
+title: Design, Creativity, and Technology Day 2025
+description: On Wednesday, September 24th, 2025, in the ESTCE hall, the Design, Creativity, and Technology Day of the ESTCE will take place. You can participate in various activities offered by the UJI associations and enter a raffle.
+pubDate: 2025-08-30
 categories:
   - agenda
 ---
 
 ### DESIGN, CREATIVITY, AND TECHNOLOGY DAY 2023
 
-On Thursday, September 28th, 2023, in the [ESTCE](https://www.google.es/maps/place/Escuela+Superior+de+Tecnologia+I+Ciencias+Experimentales,+Avenguda+Avenida+de+Vicente+Sos+Baynat,+12006+Castell%C3%B3n+de+la+Plana,+Castell%C3%B3n/@39.9926864,-0.0678504,19z/data=!3m1!4b1!4m5!3m4!1s0xd5ffe0f98be12e9:0x4e7634c2c3b978b7!8m2!3d39.9926854!4d-0.0673032?shorturl=1) hall, the 6th edition of the Design, Creativity, and Technology Day of the [ESTCE](https://www.google.es/maps/place/Escuela+Superior+de+Tecnologia+I+Ciencias+Experimentales,+Avenguda+Avenida+de+Vicente+Sos+Baynat,+12006+Castell%C3%B3n+de+la+Plana,+Castell%C3%B3n/@39.9926864,-0.0678504,19z/data=!3m1!4b1!4m5!3m4!1s0xd5ffe0f98be12e9:0x4e7634c2c3b978b7!8m2!3d39.9926854!4d-0.0673032?shorturl=1) will be held. You can participate in various activities offered by the [UJI](https://www.google.es/maps/place/Universitat+Jaume+I/@39.9902105,-0.0511631,14z/data=!4m6!3m5!1s0xd5ffe0fca9b5147:0x1368bf53b3a7fb3f!8m2!3d39.9943481!4d-0.0702147!16zL20vMDg0dGNk?coh=164777&entry=tt&shorturl=1) associations and enter a raffle.
+On Wednesday, September 24th, 2025, in the [ESTCE](https://www.google.es/maps/place/Escuela+Superior+de+Tecnologia+I+Ciencias+Experimentales,+Avenguda+Avenida+de+Vicente+Sos+Baynat,+12006+Castell%C3%B3n+de+la+Plana,+Castell%C3%B3n/@39.9926864,-0.0678504,19z/data=!3m1!4b1!4m5!3m4!1s0xd5ffe0f98be12e9:0x4e7634c2c3b978b7!8m2!3d39.9926854!4d-0.0673032?shorturl=1) hall, the Design, Creativity, and Technology Day of the [ESTCE](https://www.google.es/maps/place/Escuela+Superior+de+Tecnologia+I+Ciencias+Experimentales,+Avenguda+Avenida+de+Vicente+Sos+Baynat,+12006+Castell%C3%B3n+de+la+Plana,+Castell%C3%B3n/@39.9926864,-0.0678504,19z/data=!3m1!4b1!4m5!3m4!1s0xd5ffe0f98be12e9:0x4e7634c2c3b978b7!8m2!3d39.9926854!4d-0.0673032?shorturl=1) will be held. You can participate in various activities offered by the [UJI](https://www.google.es/maps/place/Universitat+Jaume+I/@39.9902105,-0.0511631,14z/data=!4m6!3m5!1s0xd5ffe0fca9b5147:0x1368bf53b3a7fb3f!8m2!3d39.9943481!4d-0.0702147!16zL20vMDg0dGNk?coh=164777&entry=tt&shorturl=1) associations and enter a raffle.
 
- ![](images/PHOTOCALL-1024x550.png)  
+![](images/DDCT%202025%20-%20BANNER.png)
+  
 <details> <summary>Terms and Conditions of the Raffle</summary>
 
 The Special Terms and Conditions and these General Terms and Conditions together constitute the Promotion Terms and Conditions ("Promotion Terms and Conditions"). In the event of a conflict between these General Terms and Conditions and the Special Terms and Conditions, the Special Terms and Conditions will prevail.
