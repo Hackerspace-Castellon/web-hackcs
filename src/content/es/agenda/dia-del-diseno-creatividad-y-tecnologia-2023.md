@@ -10,9 +10,10 @@ categories:
 
 El jueves 28 de Septiembre de 2023 en el hall de la [ESTCE](https://www.google.es/maps/place/Escuela+Superior+de+Tecnologia+I+Ciencias+Experimentales,+Avenguda+Avenida+de+Vicente+Sos+Baynat,+12006+Castell%C3%B3n+de+la+Plana,+Castell%C3%B3n/@39.9926864,-0.0678504,19z/data=!3m1!4b1!4m5!3m4!1s0xd5ffe0f98be12e9:0x4e7634c2c3b978b7!8m2!3d39.9926854!4d-0.0673032?shorturl=1) se celebrará la 6ª edición del Día del Diseño, Creatividad y Tecnología de la [ESTCE](https://www.google.es/maps/place/Escuela+Superior+de+Tecnologia+I+Ciencias+Experimentales,+Avenguda+Avenida+de+Vicente+Sos+Baynat,+12006+Castell%C3%B3n+de+la+Plana,+Castell%C3%B3n/@39.9926864,-0.0678504,19z/data=!3m1!4b1!4m5!3m4!1s0xd5ffe0f98be12e9:0x4e7634c2c3b978b7!8m2!3d39.9926854!4d-0.0673032?shorturl=1), allí podrás participar en las diversas actividades que las asociaciones de la [UJI](https://www.google.es/maps/place/Universitat+Jaume+I/@39.9902105,-0.0511631,14z/data=!4m6!3m5!1s0xd5ffe0fca9b5147:0x1368bf53b3a7fb3f!8m2!3d39.9943481!4d-0.0702147!16zL20vMDg0dGNk?coh=164777&entry=tt&shorturl=1) ofrecen y participar en un sorteo.
 
- ![](images/PHOTOCALL-1024x550.png)   Términos y Condiciones Legales del Sorteo​
-
-Los Términos y Condiciones Especiales y éstos Términos y Condiciones Generales constituyen conjuntamente los Términos y Condiciones de la Promoción (“Términos y Condiciones de la Promoción”). En caso de conflicto entre estos Términos y Condiciones Generales y los Términos y Condiciones Especiales prevalecerán los Términos y Condiciones Especiales.
+ ![](images/PHOTOCALL-1024x550.png)
+ 
+ 
+<details> <summary>Términos y Condiciones Legales del Sorteo​</summary> Los Términos y Condiciones Especiales y éstos Términos y Condiciones Generales constituyen conjuntamente los Términos y Condiciones de la Promoción (“Términos y Condiciones de la Promoción”). En caso de conflicto entre estos Términos y Condiciones Generales y los Términos y Condiciones Especiales prevalecerán los Términos y Condiciones Especiales.
 
 La Promoción está abierta para que participen en ella todas las Personas Incluidas según se especifica en los Términos y Condiciones Especiales (en adelante los “Participantes”).
 
@@ -74,4 +75,4 @@ Términos y Condiciones Especiales:
 - Plazo previsto para la selección del ganador: 10 días hábiles desde la finalización de la recogida de participaciones.
 - Método de notificación del ganador: Correo electrónico.
 - Plazo previsto para la notificación del ganador: 12 días hábiles desde la finalización de la recogida de participaciones.
-- Plazo límite para la respuesta a la notificación del ganador: 10 días hábiles desde la fecha de la notificación del ganador.
+- Plazo límite para la respuesta a la notificación del ganador: 10 días hábiles desde la fecha de la notificación del ganador. </details>
