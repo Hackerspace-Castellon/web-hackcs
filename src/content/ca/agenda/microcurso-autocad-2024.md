@@ -16,3 +16,5 @@ digital i impressió 3D.
 L’activitat permetrà als participants familiaritzar-se amb el flux
 de treball 3D dins d’AutoCAD i comprendre com aquesta eina pot
 utilitzar-se en processos de prototipat i disseny tècnic.
+
+![](images/banner-autocad.png)

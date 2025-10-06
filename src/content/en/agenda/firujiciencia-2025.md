@@ -13,3 +13,5 @@ Universitat Jaume I aimed at bringing science closer to students and
 the general public.
 The event will feature numerous workshops and interactive activities
 designed to spark scientific curiosity among young audiences.
+
+![](images/banner-firujiciencia-2025.jfif)

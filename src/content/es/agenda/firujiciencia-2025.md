@@ -14,3 +14,5 @@ ciencia al alumnado y al público general.
 El evento reunirá numerosos talleres y actividades interactivas
 dedicadas a despertar la curiosidad científica entre los más
 jóvenes.
+
+![](images/banner-firujiciencia-2025.jfif)

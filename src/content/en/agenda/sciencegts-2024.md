@@ -8,7 +8,7 @@ categories:
 
 ### Science GTS 2024
 
-On September 27th, 2024, we will take part in [Science GTS](https://www.uji.es/), a science outreach event held at the Agora of Universitat Jaume I.  
+On September 27th, 2024, we will take part in [Science GTS](https://www.uji.es/com/agenda/2024/09/27/science-gts/), a science outreach event held at the Agora of Universitat Jaume I.  
 Several university associations and research groups will offer workshops and interactive activities to bring science closer to the public.
 
  ![](images/Captura-de-pantalla-2023-09-28-011230-1024x298.png)

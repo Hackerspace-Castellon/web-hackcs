@@ -15,3 +15,5 @@ for preparing models for digital fabrication and 3D printing.
 The activity will help participants become familiar with the 3D
 workflow within AutoCAD and understand how this tool can be used in
 prototyping and technical design processes.
+
+![](images/banner-autocad.png)

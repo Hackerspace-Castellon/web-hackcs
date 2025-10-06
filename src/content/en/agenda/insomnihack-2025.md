@@ -14,3 +14,5 @@ their skills in cybersecurity and ethical hacking.
 Our team will represent Universitat Jaume I at this international
 gathering, sharing experiences and knowledge with other experts in
 the field.
+
+![](images/banner-insomnihack.jfif)

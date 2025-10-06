@@ -15,3 +15,5 @@ prueba sus habilidades en ciberseguridad y hacking ético.
 Nuestro equipo representará a la Universitat Jaume I en este
 encuentro internacional, donde compartiremos experiencias y
 aprendizajes con otros expertos del sector.
+
+![](images/banner-insomnihack.jfif)

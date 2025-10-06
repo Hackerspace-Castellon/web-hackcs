@@ -13,3 +13,5 @@ organitzada a la Universitat Jaume I amb l’objectiu d’acostar la
 ciència a l’alumnat i al públic general.
 L’esdeveniment reunirà nombrosos tallers i activitats interactives
 dedicades a despertar la curiositat científica en els més joves.
+
+![](images/banner-firujiciencia-2025.jfif)

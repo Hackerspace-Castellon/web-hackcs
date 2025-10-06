@@ -11,3 +11,5 @@ impressora 3D **Prusa XL** al nostre laboratori.
 Aquesta incorporació suposarà una millora important en la nostra
 capacitat de producció i prototipat, permetent agilitzar processos i
 desenvolupar projectes amb major precisió i eficiència.
+
+![](images/banner-prusaxl.jfif)

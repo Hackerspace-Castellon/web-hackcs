@@ -17,3 +17,5 @@ La actividad permitirá a los participantes familiarizarse con el
 flujo de trabajo 3D dentro de AutoCAD y comprender cómo esta
 herramienta podrá utilizarse en procesos de prototipado y diseño
 técnico.
+
+![](images/banner-autocad.png)
