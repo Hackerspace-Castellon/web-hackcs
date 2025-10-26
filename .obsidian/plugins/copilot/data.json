@@ -12,13 +12,13 @@
   "azureOpenAIApiDeploymentName": "",
   "azureOpenAIApiVersion": "",
   "azureOpenAIApiEmbeddingDeploymentName": "",
-  "googleApiKey": "",
+  "googleApiKey": "AIzaSyDEvyB9UGwfNpiAYsBSBmP4aLj5Z0BaqHk",
   "openRouterAiApiKey": "",
   "xaiApiKey": "",
   "mistralApiKey": "",
   "deepseekApiKey": "",
   "defaultChainType": "llm_chain",
-  "defaultModelKey": "gemma3-optimized|ollama",
+  "defaultModelKey": "gemini-2.5-pro|google",
   "embeddingModelKey": "text-embedding-004|google",
   "temperature": 0.1,
   "maxTokens": 4000,
@@ -58,7 +58,7 @@
     {
       "name": "google/gemini-2.5-flash-lite-preview-06-17",
       "provider": "openrouterai",
-      "enabled": true,
+      "enabled": false,
       "isBuiltIn": true,
       "core": true,
       "projectEnabled": true,
@@ -69,7 +69,7 @@
     {
       "name": "google/gemini-2.5-flash",
       "provider": "openrouterai",
-      "enabled": true,
+      "enabled": false,
       "isBuiltIn": true,
       "core": true,
       "projectEnabled": true,
@@ -80,7 +80,7 @@
     {
       "name": "google/gemini-2.5-pro",
       "provider": "openrouterai",
-      "enabled": true,
+      "enabled": false,
       "isBuiltIn": true,
       "core": true,
       "projectEnabled": true,
@@ -139,6 +139,12 @@
       "capabilities": [
         "vision"
       ]
+    },
+    {
+      "name": "gemini-2.5-pro",
+      "provider": "google",
+      "apiKey": "AIzaSyDEvyB9UGwfNpiAYsBSBmP4aLj5Z0BaqHk",
+      "enabled": true
     },
     {
       "name": "gemma3-optimized",
