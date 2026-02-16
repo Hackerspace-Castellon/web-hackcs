@@ -26,4 +26,4 @@ pnpm-debug.log*
 /copilot-custom-prompts/
 
 # obsidian plugins
-.obsidian/plugins/copilot/
+.obsidian/plugins/copilot/data.json

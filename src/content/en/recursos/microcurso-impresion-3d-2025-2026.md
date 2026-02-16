@@ -1,5 +1,5 @@
 ---
-title: 3D Printing Microcourse 2025
+title: 3D Printing Microcourse 2025-2026
 description: "Microcourse: '3D Printing: Slicing with Prusa Slicer and Parametric Modeling with Onshape'"
 pubDate: 2025-02-18
 categories:

@@ -4,5 +4,6 @@
   "attachmentFolderPath": "./images",
   "useMarkdownLinks": true,
   "showUnsupportedFiles": true,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "promptDelete": false
 }
