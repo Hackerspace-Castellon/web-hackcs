@@ -22,7 +22,7 @@ export const LOCALES_SETTING: LocaleSetting = {
 		lang: "en-US",
 	},
     ca: {
-        label: "Català",
+        label: "Valencià",
         lang: "ca-ES",
     }
 };
