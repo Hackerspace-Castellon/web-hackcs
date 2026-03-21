@@ -8,6 +8,6 @@ categories:
 
 ### ARDUINO DAY 2026
 
-We will celebrate Arduino Day ([https://days.arduino.cc/about](https://days.arduino.cc/about)) by hosting an open day on Saturday, March 28, 2026.
+We will celebrate Arduino Day ([https://days.arduino.cc/about](https://days.arduino.cc/about)) by hosting an open day on Saturday, March 28, 2026 from 17:00h to 20:00h.
 
 We will show you various robots and share ideas on how to get started in the world of Arduino.
