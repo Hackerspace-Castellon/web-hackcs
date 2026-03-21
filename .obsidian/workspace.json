@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/en/agenda/3d-scan-erasmus-2026.md",
+                "file": "src/content/ca/agenda/arduino-day-2026.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "3d-scan-erasmus-2026"
+              "title": "arduino-day-2026"
             }
           }
         ]
@@ -191,11 +191,18 @@
   },
   "active": "569d9a3d908317fa",
   "lastOpenFiles": [
+    "src/content/en/agenda/arduino-day-2026.md",
+    "src/content/ca/agenda/arduino-day-2026.md",
+    "src/content/es/agenda/arduino-day-2026.md",
+    "src/content/es/agenda/arduino-day-2025.md",
+    "src/content/ca/agenda/arduino-day-2026.md",
+    "src/content/ca/agenda/arduino-day-2025.md",
+    "src/content/ca/agenda/arduino-day-2024.md",
+    "src/content/en/agenda/3d-scan-erasmus-2026.md",
     "src/content/en/agenda/curso-ciberseguridad-2026.md",
     "src/content/ca/agenda/3d-scan-erasmus-2026.md",
     "src/content/es/agenda/3d-scan-erasmus-2026.md",
     "src/content/en/agenda/3d-printer-party-madrid-2024.md",
-    "src/content/en/agenda/3d-scan-erasmus-2026.md",
     "src/content/es/agenda/curso-ciberseguridad-2026.md",
     "src/content/ca/recursos/microcurso-impresion-3d-2025-2026.md",
     "src/content/es/agenda/curso-impresion-3d-2026.md",
@@ -220,14 +227,7 @@
     "src/content/es/agenda/semana-bienvenida-uji-2025.md",
     "src/content/ca/agenda/ddct-25.md",
     "src/content/en/agenda/ddct-25.md",
-    "src/content/ca/agenda/semana-bienvenida-uji-2024.md",
-    "src/content/ca/agenda/montaje-prusa-xl-2025.md",
-    "src/content/ca/agenda/presentacion-tecnologias-gis-2025.md",
     "src/content/en/agenda/images/banner-autocad.png",
-    "src/content/en/agenda/firujiciencia-2025.md",
-    "src/content/ca/agenda/seminario-ingenieria-diseno-industrial-2025.md",
-    "src/content/ca/agenda/sciencegts-2024.md",
-    "src/content/ca/agenda/microcurso-autocad-2024.md",
     "src/content/ca/agenda/images/banner-prusaxl.jfif",
     "src/content/ca/agenda/images/banner-insomnihack.jfif",
     "src/content/ca/agenda/images/banner-firujiciencia-2025.jfif",
