@@ -7,8 +7,7 @@ categories:
 ---
 ### Firujiciència 2025
 El 10 d’abril de 2025 participarem a la [Firujiciència
-2025](https://www.uji.es/investigacio/base/cultura-cientifica/pc4/ac
-c-divulga/firuji/participa/), una fira de divulgació científica
+2025](https://www.uji.es/investigacio/base/cultura-cientifica/pc4/acc-divulga/firuji/participa/), una fira de divulgació científica
 organitzada a la Universitat Jaume I amb l’objectiu d’acostar la
 ciència a l’alumnat i al públic general.
 L’esdeveniment reunirà nombrosos tallers i activitats interactives

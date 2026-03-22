@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/es/agenda/firujiciencia-2026.md",
+                "file": "src/content/es/agenda/firujiciencia-2024.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "firujiciencia-2026"
+              "title": "firujiciencia-2024"
             }
           }
         ]
@@ -189,18 +189,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "569d9a3d908317fa",
+  "active": "87c1072c1deb038e",
   "lastOpenFiles": [
+    "src/content/en/agenda/firujiciencia-2024.md",
+    "src/content/ca/agenda/firujiciencia-2024.md",
+    "src/content/ca/agenda/firujiciencia-2025.md",
+    "src/content/en/agenda/firujiciencia-2025.md",
+    "src/content/es/agenda/firujiciencia-2025.md",
+    "src/content/es/agenda/arduino-day-2026.md",
+    "src/content/es/agenda/firujiciencia-2026.md",
     "src/content/en/agenda/firujiciencia-2026.md",
     "src/content/ca/agenda/firujiciencia-2026.md",
-    "src/content/es/agenda/firujiciencia-2026.md",
     "src/content/ca/agenda/arduino-day-2026.md",
     "src/content/en/agenda/arduino-day-2026.md",
     "src/content/ca/agenda/images/Cartells Firujiciencia26-WEB_01.jpg",
     "src/content/en/agenda/images/Cartells Firujiciencia26-WEB_01.jpg",
     "src/content/es/agenda/images/Cartells Firujiciencia26-WEB_01.jpg",
-    "src/content/es/agenda/firujiciencia-2025.md",
-    "src/content/es/agenda/arduino-day-2026.md",
     "src/content/es/agenda/arduino-day-2025.md",
     "src/content/ca/agenda/arduino-day-2025.md",
     "src/content/ca/agenda/arduino-day-2024.md",
@@ -223,11 +227,7 @@
     "src/content/en/agenda/semana-bienvenida-uji-2025.md",
     "src/content/en/agenda/images/Banner-curso-impresion-3d-alumnisauji 1.jpg",
     "src/content/es/agenda/images/Banner-curso-impresion-3d-alumnisauji.jpg",
-    "src/content/ca/agenda/semana-bienvenida-uji-2025.md",
     "src/content/es/recursos/Untitled.base",
-    "src/content/es/recursos/microcurso-impresion-3d-2025-2026.md",
-    "src/content/en/recursos/microcurso-impresion-3d-2025-2026.md",
-    "src/content/es/agenda/microcurso-autocad-2024.md",
     "src/content/ca/agenda/images/banner-prusaxl.jfif",
     "src/content/ca/agenda/images/banner-insomnihack.jfif",
     "src/content/ca/agenda/images/banner-firujiciencia-2025.jfif",
