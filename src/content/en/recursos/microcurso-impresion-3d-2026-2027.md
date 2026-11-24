@@ -1,21 +1,24 @@
 ---
 title: 3D Printing Microcourse 2026-2027
-description: "Microcourse: '3D Printing: Slicing with PrusaSlicer and Parametric Design with Onshape'"
+description: "Microcourse: '3D Printing: Slicing with Prusa Slicer and Parametric Modeling with Onshape'. Practical application in teaching"
 pubDate: 2026-11-24
 categories:
   - agenda
   - recursos
 ---
 
-## **Microcourse: "3D Printing: Slicing with PrusaSlicer and Parametric Design with Onshape"**
+## **Microcourse: "3D Printing: Slicing with Prusa Slicer and Parametric Modeling with Onshape"**
+
+### Practical application in teaching
 
 Slides and worksheets from the AlumniSAUJI course on November 24 and 26 and December 1 and 3, 2026.
 
-![](images/Banner600x400px.jpg)
+![](images/Banner-impresion-3d-2026-2027.jpg)
 
-The worksheets have fields to write down your print times and grams: open them with Adobe Acrobat Reader.
+Download the PDFs and open them with Foxit PDF Reader.
 
-### Session 1 · Fundamentals and PrusaSlicer basics
+<details>
+<summary><strong>Session 1 · Fundamentals and PrusaSlicer basics</strong></summary>
 
 ## <a href="https://drive.google.com/uc?export=download&id=1P0Pbd43o_g7_De__TJWyR8vxpkI5TI_R">**SLIDES 1 (PDF)**</a>
 
@@ -23,17 +26,28 @@ The worksheets have fields to write down your print times and grams: open them w
 
 ## <a href="https://drive.google.com/uc?export=download&id=1_gRp2xhS5blQyqvdtYm6E2dgpwQDSrdr">**WORKSHEET 1.2 · HACKCS PENCIL HOLDER (PDF)**</a>
 
-### Session 2 · Advanced PrusaSlicer
+</details>
+
+<details>
+<summary><strong>Session 2 · Advanced PrusaSlicer</strong></summary>
 
 Coming soon.
 
-### Session 3 · Parametric design with Onshape
+</details>
+
+<details>
+<summary><strong>Session 3 · Parametric design with Onshape</strong></summary>
 
 Coming soon.
 
-### Session 4 · Designing for printing, without surprises
+</details>
+
+<details>
+<summary><strong>Session 4 · Designing for printing, without surprises</strong></summary>
 
 Coming soon.
+
+</details>
 
 <figure>
 

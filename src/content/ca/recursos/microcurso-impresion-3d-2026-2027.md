@@ -1,21 +1,24 @@
 ---
 title: Microcurs Impressió 3D 2026-2027
-description: "Microcurs: 'Impressió 3D: Laminat amb PrusaSlicer i disseny paramètric amb Onshape'"
+description: "Microcurs: 'Impressió 3D: Laminatge amb Prusa Slicer i modelatge paramètric amb Onshape'. Aplicació pràctica a la docència"
 pubDate: 2026-11-24
 categories:
   - agenda
   - recursos
 ---
 
-## **Microcurs: "Impressió 3D: Laminat amb PrusaSlicer i disseny paramètric amb Onshape"**
+## **Microcurs: "Impressió 3D: Laminatge amb Prusa Slicer i modelatge paramètric amb Onshape"**
+
+### Aplicació pràctica a la docència
 
 Presentacions i fitxes del curs amb AlumniSAUJI del 24 i 26 de novembre i l'1 i 3 de desembre de 2026.
 
-![](images/Banner600x400px.jpg)
+![](images/Banner-impresion-3d-2026-2027.jpg)
 
-Les fitxes tenen camps per apuntar els teus temps i grams: obre-les amb Adobe Acrobat Reader.
+Descarrega els PDF i obre'ls amb Foxit PDF Reader.
 
-### Sessió 1 · Fonaments i PrusaSlicer bàsic
+<details>
+<summary><strong>Sessió 1 · Fonaments i PrusaSlicer bàsic</strong></summary>
 
 ## <a href="https://drive.google.com/uc?export=download&id=1P0Pbd43o_g7_De__TJWyR8vxpkI5TI_R">**PRESENTACIÓ 1 (PDF)**</a>
 
@@ -23,17 +26,28 @@ Les fitxes tenen camps per apuntar els teus temps i grams: obre-les amb Adobe Ac
 
 ## <a href="https://drive.google.com/uc?export=download&id=1_gRp2xhS5blQyqvdtYm6E2dgpwQDSrdr">**FITXA 1.2 · PORTALLAPIS HACKCS (PDF)**</a>
 
-### Sessió 2 · PrusaSlicer avançat
+</details>
+
+<details>
+<summary><strong>Sessió 2 · PrusaSlicer avançat</strong></summary>
 
 Properament.
 
-### Sessió 3 · Disseny paramètric amb Onshape
+</details>
+
+<details>
+<summary><strong>Sessió 3 · Disseny paramètric amb Onshape</strong></summary>
 
 Properament.
 
-### Sessió 4 · Dissenyar per imprimir, sense ensurts
+</details>
+
+<details>
+<summary><strong>Sessió 4 · Dissenyar per imprimir, sense ensurts</strong></summary>
 
 Properament.
+
+</details>
 
 <figure>
 
